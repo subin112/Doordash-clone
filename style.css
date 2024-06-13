@@ -1,0 +1,1234 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: norms-bold;
+    src: url(font/TTNorms-Bold.woff2);
+}
+@font-face {
+    font-family: norms-medium;
+    src: url(font/TTNorms-Medium\ \(1\).woff2);
+}
+@font-face {
+    font-family: norm-regular;
+    src: url(font/TTNorms-Regular.woff2);
+}
+
+    
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.door{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px; */
+    /* margin-top: 16px; */
+    transform: translate(79px);
+    
+    
+}
+.logo {
+    transform: translateX(2px);
+}
+.door svg{
+    height: 40px;
+    fill: white;
+    box-sizing: border-box;
+    margin-left: 14px;
+    /* padding-top: 0; */
+    
+}
+header{
+    background: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+    height: 650px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.button{
+    display: flex;
+    /* box-sizing: border-box; */
+    transform: translateX(-22px);
+    gap: 10px;
+}
+.button .in{
+    height: 40px;
+    width: 77.98px;
+    border-radius: 19px;
+    border: none;
+    background-color: #eb1700;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family:norms-bold; 
+font-size: 18px;
+/* font-variant-ligatures: no-common-ligatures; */
+font-weight: 700;
+letter-spacing: -0.511333px;
+line-height: 24px;
+}
+.button .up{
+    width: 86.433px;
+    height: 40px;
+    border-radius: 19px;
+    border: none;
+    background-color: #ffffff;
+    box-sizing: border-box;
+color: rgb(73, 73, 73);
+cursor: pointer;
+display: block;
+font-family: norms-bold;
+font-size: 18px;
+/* font-variant-ligatures: no-common-ligatures; */
+font-weight: 700;
+letter-spacing: -0.511333px;
+/* line-height: 24px, */
+/* margin-left: 2px; */
+transform: translateX();
+
+}
+.discover{
+    display: block;
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 217px;
+
+    
+}
+
+.banner-text{
+    font-family: norms-bold;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px
+}
+.cover{
+    display: block;
+    height: 56px;
+    padding-top: 20px; 
+}
+.cover #forms {
+    padding: 30px;
+    display: block;
+    box-sizing: border-box;
+    width:200px;
+ height: 56px;
+ /* padding: 40px; */
+}
+.dasher{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 124px;
+    transform: translateX(-50px);
+
+}
+.scooter{
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    
+}
+.scooter h2{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 32px;
+width: 200px;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+}
+.scooter span{
+    width: 250px;
+    display: block;
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 550;
+letter-spacing: -0.01px;
+line-height: 24px;
+text-align: center;
+}
+.scooter h3{
+    box-sizing: border-box;
+color: rgb(235, 23, 0);
+cursor: pointer;
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 18px;
+font-variant-ligatures: normal;
+font-weight: 700;
+letter-spacing: -0.01px;
+}
+.house {
+    display: block;
+    text-align: center;
+}
+.house h2{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 32px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 200px;
+transform: translateX(-10px);
+}
+.house span{
+    width: 200px;
+    display: block;
+}
+.mobile{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(35px);
+
+}
+.mobile h2{
+   box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 32px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px; 
+width: 200px;
+}
+.mobile span{
+width: 200px;
+display: block;
+}
+.mobile h3{
+
+}
+.type img{
+    height: 154px;
+    width: 154px;
+    box-sizing: border-box;
+    transform: translateX(-20px);
+}
+.type1{
+    margin-left: -11px;
+}
+.type2 img{
+     height: 154px;
+    width: 154px;
+    box-sizing: border-box;
+}
+.start{
+    display: flex;
+    width: 100%;
+    
+}
+.start img{
+    
+}
+.crave{
+    /* width: 70%; */
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+.crave-img{
+    margin-left: 78px;
+}
+.writing{
+    display: block;
+    /* width: 40%; */
+    margin-left: -10px;
+}
+.crave-img img{
+    width: 695.033px;
+    height: 500px;
+}
+.writing h2{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 350px;
+margin-bottom: 10px;
+transform: translateY(-10px);
+}
+.writing span{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 20px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 24px;
+width: 100%;
+margin-bottom: 8px;
+}
+.writing p{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 400px;
+}
+.writing button{
+    width: 145.9px;
+    height: 40px;
+    border-radius: 22px;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 15px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+background-color: #eb1700;
+border: none;
+margin-top: 30px;
+}
+.full-pink{
+    width: 100%;
+    height: 605px;
+    background-color: #fef1ee;
+    padding-top: 8px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.less{
+    display: block;
+    
+}
+.less img{
+    height: 500px;
+    width: 724px;
+    margin-top: 74px;
+}
+.words{
+    display: block;
+    box-sizing: border-box;
+    margin-left: 60px;
+    /* transform: translateY(148px); */
+    margin-top: 217px;
+    /* justify-content: ; */
+    
+}
+.words h2{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 300px;
+margin-bottom: 20px;
+
+}
+.words span{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 400px;
+margin-bottom: 27px;
+}
+.words button{
+    height: 40px;
+    width: 126.960px;
+    border: none;
+    background-color: #eb1700;
+    color: #ffffff;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+border-radius: 20px;
+}
+.cover-img{
+    
+    width: 100%;
+    background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png");
+    height: 600px;
+      background-size: cover; 
+      background-repeat: no-repeat;
+      background-position: center;
+      /* border: 1px solid #000;  */
+      /* object-fit: contain; */
+}
+
+.grocery{
+    display: block;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 740px;
+    /* transform: translateX(245px); */
+    transform: translateY(165px);
+    
+    
+}
+.grocery h2{
+    display: block;
+filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 38px;
+width: 350px;
+text-align: center;
+color: #ffffff;
+margin-bottom: 22px;
+/* transform: translateX(92px); */
+
+}
+.grocery span{
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+filter: norms-bold;
+font-size: 20px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 24px;
+width: 400px;
+align-items: center;
+/* margin-top: 20px; */
+}
+.grocery p{
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+filter: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 500px;
+text-align: center;
+}
+.grocery button{
+height: 40px;
+width: 138.067px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+background-color: #eb1700;
+border: none;
+border-radius: 16px;
+text-align: center;
+
+}
+.door{
+    /* display: flex; */
+    /* width: 100%; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* margin-top: 60px; */
+    /* transform: translateX(-20px); */
+
+}
+.ezra{
+    display: block;
+    margin-top: 140px;
+    margin-left: -30px;
+}
+.medi{
+display: block;
+box-sizing: border-box;
+margin-left: 120px;
+
+}
+.medi img{
+    width: 695.033px;
+    height: 500px;
+}
+.ezra h1{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 290px;
+}
+.ezra span{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 370px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.ezra button{
+width: 100.25px;
+height: 40px;
+border-radius: 20px;
+border: none;
+background-color: #eb1700;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+margin-top: 10px;
+}
+.gift{
+       display: flex;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background-color: #fef1ee;
+    justify-content: center;
+    margin-top: -22px;
+}
+.gift span{
+    box-sizing: border-box;
+ color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 32px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+padding-top: 60px;
+width: 450px;
+text-align: center;
+}
+.boxer{
+    padding-top: 20px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 560px 560px;
+    grid-template-rows: 800px 800px;
+    gap: 29px;
+    height: 1654px;
+    background-color: #fef1ee;
+}
+.box{
+    display: block;
+
+}
+.pack img{
+width: 552px;
+height: 552px;
+object-fit: cover;
+}
+.from{
+    /* border: 2px solid black; */
+    display: block;
+    box-sizing: border-box;
+    margin-top: 29px;
+
+}
+.from h2{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 500px;
+text-align: center;
+transform: translateX(28px);
+
+}
+.from span{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+text-align: center;
+margin-top: 20px;
+}
+.from button{
+width: 168.5px;
+height:40px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 15px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+border: none;
+background-color: #eb1700;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 30px;
+/* padding-left: 49px; */
+transform: translateX(194px);
+}
+
+
+.flower{
+    /* border: 2px solid black; */
+    display: block;
+    box-sizing: border-box;
+    margin-top: 29px;
+
+}
+.flower h2{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 500px;
+text-align: center;
+transform: translateX(32px);
+}
+.flower span{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+text-align: center;
+margin-top: 20px;
+}
+.flower button{
+width: 124.017px;
+height: 40px;
+border: none;
+background-color: #eb1700;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+margin-top: 31px;
+transform: translateX(218px);
+}
+.minibar{
+    /* border: 2px solid black; */
+    display: block;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+.minibar h2{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 500px;
+text-align: center;
+/* width: 390px; */
+margin-left: 29px;
+}
+.minibar span{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+text-align: center;
+margin-top: 22px;
+}
+.minibar button{
+width: 124.017px;
+height: 40px;
+border: none;
+background-color: #eb1700;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+margin-top: 30px;
+transform: translateX(217px);
+}
+.pet{
+    /* border: 2px solid black; */
+    display: block;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+.pet h2{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 500px;
+text-align: center;
+margin-left: 30px;
+}
+.pet span{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+text-align: center;
+margin-top: 22px;
+}
+.pet button{
+width: 149.1px;
+height:40px;
+border: none;
+background-color: #eb1700;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+margin-top: 31px;
+transform: translateX(207px);
+/* padding-bottom: 20px; */
+}
+.bussi{
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    text-align: center;
+    float: center;
+}
+.bussi h2{
+    display: block;
+    /* justify-content: center; */
+    width: 390px;
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 32px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+margin-top: 54px;
+}
+.mar{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    height: 550px;
+
+}
+.mar-img img{
+    display: flex;
+    box-sizing: border-box;
+    transform: translateX(1px);
+    width: 695.033px;
+    height: 500px;
+}
+.paid{
+    display: block;
+    transform: translateY(143px);
+    margin-right: 59px;
+}
+.paid h2{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 300px;
+}
+.paid span{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 400px;
+margin-top: 20px;
+
+}
+.paid button{
+    width: 152.717px;
+    height: 40px;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+background-color: #eb1700;
+border-radius: 20px;
+border: none;
+margin-top: 30px;
+
+}
+.sales{
+    display: flex;
+    justify-content: center;
+    height: 604px;
+    background-color: #fef1ee;
+    margin-top: -84px;
+    padding-top: 79px;
+    width: 100%;
+
+    
+}
+.girl img{
+width: 724px;
+height: 500px;
+margin-right: 60px;
+object-fit: cover;
+}
+.girl{
+    display: block;
+    
+}
+.top{
+    display: block;
+    transform: translateY(123px);
+}
+.top h2{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 290px;
+}
+.top span{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 399px;
+margin-top: 20px;
+}
+.top button{
+    width: 156.133px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 15.7px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+background-color: #eb1700;
+margin-top: 30px;
+}
+.hood{
+    display: block;
+    margin-top: 50px;
+    height: 326px;
+    
+}
+.down{
+    display: flex;
+    justify-content: center;  
+
+}
+.down h1{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-bold;
+font-size: 32px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+margin-top: -15px;
+
+}
+.chain{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 30px;
+}
+.chain p{
+    box-sizing: border-box;
+color: rgb(73, 73, 73);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+border-bottom-style:groove;
+/* width: 50%; */
+}
+.miami{
+    display: grid;
+    grid-template-columns: 150px 200px 200px 200px 200px;
+    justify-content: center;
+}
+.miami ul{
+    list-style: none;
+    text-decoration: none;
+    /* margin-top: 30px; */
+}
+.miami ul li{
+margin-top: 20px;
+/* text-align: right; */
+transform: translateX(-100px);
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+}
+ul .new{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+cursor: pointer;
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px;
+text-align: center;
+}
+.queen{
+    text-align: center;
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+cursor: pointer;
+display: block;
+font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 22px
+}
+.krish{
+    display: block;
+    width: 100%;
+    height: 822px;
+    background-color: #191919;
+    color:#ffffff;
+    padding-left: 20px;
+}
+.bahu {
+    margin-left: 340px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 270px 260px 260px 200px ;
+    
+    
+}
+.pop p{
+    margin-left: 340px;
+    justify-content: center;
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: normal;
+line-height: 22px;
+padding-top: 30px;
+}
+.bahu ul{
+    box-sizing: border-box;
+color: rgb(196, 196, 196);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 14px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: normal;
+}
+.bahu li{
+    display: block;
+    margin-top: 15px;
+    
+}
+.code {
+    display: flex;
+    gap: 80px;
+    padding-left: 336px;
+    padding-top: 48px;
+}
+.cool{
+    display: block;
+}
+.all{
+    display: flex;
+    margin-left: 290px;
+}
+.all ul{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+.all li{
+    margin-top: 10px;
+
+}
+.code p{
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: normal;
+line-height: 22px;
+}
+.gradeient{
+    background-color: rgba(30, 30, 30, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.desk{
+    margin-left: 60px;
+}
+.lap{
+    margin-left: 24px;
+}
+.phone{
+    /* padding-right: 50px; */
+}
+.app{
+    display: block;
+    
+}
+.all li{
+    box-sizing: border-box;
+color: rgb(196, 196, 196);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 14px;
+/* font-variant-ligatures: no-common-ligatures; */
+font-weight: 500;
+letter-spacing: normal;
+line-height: 20px;
+}
+.app{
+    display: block;
+height: 100px;
+float: right;
+transform: translateX(388px);
+    
+
+}
+.final svg{
+    width: 144px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #3a3a3a;
+    color: white;
+}
+.play svg{
+    width: 144px;
+    height: 50px;
+    
+    border-radius: 12px;
+    background-color: #3a3a3a;
+    color: white;
+    margin-top: 10px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* object-fit: cover; */
+    
+}
+.app svg{
+    fill : #bababa;
+
+}
+
+
+
+    
+
+@media (min-wdth:200px){
+
+}
+
+
+
