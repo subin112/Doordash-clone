@@ -16,8 +16,12 @@
     font-family: norm-regular;
     src: url(font/TTNorms-Regular.woff2);
 }
-
-    
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+  
 .navbar{
     width: 100%;
     display: flex;
@@ -25,24 +29,26 @@
     padding-top: 16px;
 }
 .door{
+    /* margin: 0; */
     width: 100%;
     display: flex;
     justify-content: center;
-    /* margin-left: 50px; */
-    /* margin-top: 16px; */
-    transform: translate(79px);
-    
-    
+    margin-left: 160px;
+     
 }
 .logo {
-    transform: translateX(2px);
+    margin-left: 1px;
+}
+.golo{
+    margin-left: -2px;
 }
 .door svg{
     height: 40px;
     fill: white;
     box-sizing: border-box;
     margin-left: 14px;
-    /* padding-top: 0; */
+    padding-top: 0;
+    /* margin-top:-40px; */
     
 }
 header{
@@ -98,7 +104,7 @@ font-weight: 700;
 letter-spacing: -0.511333px;
 /* line-height: 24px, */
 /* margin-left: 2px; */
-transform: translateX();
+transform: translateX(-2px);
 
 }
 .discover{
@@ -108,6 +114,7 @@ transform: translateX();
     text-align: center;
     justify-content: center;
     margin-top: 217px;
+    /* position: fixed; */
 
     
 }
@@ -121,20 +128,83 @@ font-size: 40px;
 font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
-line-height: 40px
+line-height: 40px;
+/* margin-top: 0; */
 }
 .cover{
-    display: block;
+    display: flex;
+    /* display: block; */
     height: 56px;
-    padding-top: 20px; 
+    padding: 20px; 
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 408px;
+    transform: translateX(712px);
+    border-radius: 150px;
+    margin-top: 24px;
+    border: none;
+    outline: none;
+    /* border: 2px solid ; */
+
+}
+.cover input{
+    border: none;
+}
+
+::placeholder{
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: normal;
+font-weight: 500;
+letter-spacing: normal;
+line-height: 22px;
+
+}
+.saved{
+    display: flex;
+    background-color: #ffffff;
+    width: 203.333px;
+    height: 32px;
+    justify-content: center;
+    margin-left: 816px;
+    margin-top: 16px;
+    border-radius: 20px;
+    
+}
+.location{
+    margin-top: -4px;
+}
+.saved p{
+    box-sizing: border-box;
+color: rgb(36, 36, 36);
+cursor: pointer;
+display: block;
+font-family: norms-bold;
+font-size: 14px;
+/* font-variant-ligatures: normal; */
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 20px;
+align-items: center;
+padding-top: 6px;
+/* border-radius: 20px; */
+}
+.saved svg{
+    margin-top: 7px;
+    margin-right: 2px;
+}
+    
+
+.form{
+    border: none;
+    outline: none;
+    
 }
 .cover #forms {
-    padding: 30px;
     display: block;
     box-sizing: border-box;
-    width:200px;
- height: 56px;
- /* padding: 40px; */
+    border: none;
+    
 }
 .dasher{
     box-sizing: border-box;
@@ -155,53 +225,60 @@ line-height: 40px
     box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
-font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: norms-bold;
 font-size: 32px;
 width: 200px;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
+margin-top: -4px;
+margin-left: -4px;
 }
-.scooter span{
+.fan span{
     width: 250px;
     display: block;
     box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
-font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-font-size: 16px;
+font-family:norms-medium;
+font-size: 18px;
 font-variant-ligatures: no-common-ligatures;
-font-weight: 550;
+font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 24px;
 text-align: center;
+margin-top: 8px;
+transform: translateX(-31px);
+/* margin-left: -2px; */
 }
-.scooter h3{
+.arrow h3{
     box-sizing: border-box;
 color: rgb(235, 23, 0);
 cursor: pointer;
 display: block;
-font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: norms-medium;
 font-size: 18px;
-font-variant-ligatures: normal;
+/* font-variant-ligatures: normal; */
 font-weight: 700;
 letter-spacing: -0.01px;
+line-height:22px;
 }
 .house {
     display: block;
     text-align: center;
 }
-.house h2{
+.non h2{
     box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
-font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: norms-bold;
 font-size: 32px;
 font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
 width: 200px;
+/* margin-left: 5px; */
 transform: translateX(-10px);
 }
 .house span{
@@ -220,7 +297,7 @@ transform: translateX(-10px);
    box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
-font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: norms-bold;
 font-size: 32px;
 font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
@@ -235,27 +312,109 @@ display: block;
 .mobile h3{
 
 }
+.start2 h3{
+box-sizing: border-box;
+color: rgb(235, 23, 0);
+cursor: pointer;
+display: block;
+font-family: norms-bold;
+font-size: 18px;
+font-variant-ligatures: normal;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+
+}
+.arrow svg{
+    fill: red;
+    color: red;
+}
+.arrow{
+    display: flex;
+}
+.arrow h3{
+    box-sizing: border-box;
+color: rgb(235, 23, 0);
+cursor: pointer;
+display: block;
+font-family: norms-bold;
+font-size: 18px;
+font-variant-ligatures: normal;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+}
 .type img{
     height: 154px;
     width: 154px;
     box-sizing: border-box;
-    transform: translateX(-20px);
+    transform: translateX(-22px);
 }
 .type1{
-    margin-left: -11px;
+    margin-left: -13px;
 }
 .type2 img{
      height: 154px;
     width: 154px;
     box-sizing: border-box;
+    margin-left: -3px;
 }
 .start{
     display: flex;
     width: 100%;
     
 }
+.start1 svg{
+    color: red;
+    fill:#eb1700
+}
 .start img{
     
+}
+.start2{
+    display: flex;
+}
+.start1{
+    display: flex;
+}
+.non span{
+    width: 270px;
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 18px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 24px;
+
+
+}
+.start1 h3{
+    box-sizing: border-box;
+color: rgb(235, 23, 0);
+cursor: pointer;
+display: block;
+font-family: norms-bold;
+font-size: 18px;
+font-variant-ligatures: normal;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+width: 190px;
+}
+.shoe span{
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 18px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 24px;
+width: 270px;
 }
 .crave{
     /* width: 70%; */
@@ -494,13 +653,16 @@ border-radius: 16px;
 text-align: center;
 
 }
-.door{
-    /* display: flex; */
+.noor{
+    margin-top: 50px;
+    display: flex;
     /* width: 100%; */
+    justify-content: center;
     /* margin: 0; */
     /* padding: 0; */
-    /* margin-top: 60px; */
-    /* transform: translateX(-20px); */
+    /* margin-left: 160px; */
+    /* width: 100px; */
+    /* transform: translateX(20px); */
 
 }
 .ezra{
@@ -511,7 +673,7 @@ text-align: center;
 .medi{
 display: block;
 box-sizing: border-box;
-margin-left: 120px;
+/* margin-left: 120px; */
 
 }
 .medi img{
@@ -1086,16 +1248,34 @@ line-height: 22px
     height: 822px;
     background-color: #191919;
     color:#ffffff;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .bahu {
     margin-left: 340px;
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 270px 260px 260px 200px ;
+    grid-template-columns: 260px 260px 220px 90px ;
     
     
 }
+.done{
+    margin: -20px;
+}
+.row {
+    display: flex;
+    background-color: #eb1700;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /* margin-left: 20px; */
+    transform: translateX(10px);
+    margin-top: -11px;
+    color: #fef1ee;
+    
+}
+
 .pop p{
     margin-left: 340px;
     justify-content: center;
@@ -1108,7 +1288,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: normal;
 line-height: 22px;
-padding-top: 30px;
+/* padding-top: 30px; */
 }
 .bahu ul{
     box-sizing: border-box;
@@ -1193,7 +1373,7 @@ line-height: 20px;
     display: block;
 height: 100px;
 float: right;
-transform: translateX(388px);
+/* transform: translateX(388px); */
     
 
 }
@@ -1222,11 +1402,311 @@ transform: translateX(388px);
 
 }
 
+@media (min-width:768px) and (max-width:954px){
 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 
+}
+    .navbar{
+        margin: 0;
+        padding: 0;
+    /* box-sizing: border-box; */
+    width: 100%;
+    }
+  
+      header{
+        background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+        width: 100%;
+        object-fit: cover;
+        height: 650px;
+        margin: 0;
+        padding: 0;
+    }
+    .cover{
+        transform: none;
+        /* margin: 0; */
+        /* padding: 0; */
+    }
+    .saved{
+        margin-left: 0;
+    }
+    .crave-img img{
+        width: 294.5px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .banner-text{
+        color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 750px;
+    }
+    .dasher{
+        width: 100%;
+        display: block;
+        /* margin:0; */
+        /* padding: 0; */
+        transform: none;
+        justify-content: center;
+
+    }
+    .scooter{
+
+        /* margin: 0; */
+        width: 100%;
+        display: flex;
+        /* margin-left: 200px; */
+    }
+    .house{
+        display: flex;
+    }
+    .start{
+        display: block;
+    }
+    .mobile{
+        display: flex;
+        transform: none;
+    }
+    .door{
+        width: 100%;
+        margin-top: 23px;
+        /* margin-left: 10px; */
+        padding: 0;
+        margin-left: 165px;
+        /* transform: none; */
+    }
+    .medi{
+        margin: 0;
+        padding: 0;
+    }
+    .medi img{
+        width: 346.2px;
+        height: 500px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+        transform: none;
+    }
+    .cover-img{
+        width: 100%;
+
+    }
+    .ezra{
+        /* margin: 0; */
+        margin-left: 20px;
+        padding: 0;
+        /* transform: none; */
+        /* width: 100%; */
+        gap: none;
+    }
+    .grocery{
+        margin: 0;
+        padding: 0;
+        /* transform: none; */
+    }
+    .full-pink{
+        width: 100%;
+        /* margin: 0; */
+        /* padding: 0; */
+        transform: none;
+    }
+    .less img{
+        width: 303.56px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .boxer{
+        width: 100%;
+        /* margin: 0; */
+        /* padding: 0; */
+    }
+    .pack img{
+        width: 344.5px;
+        height: 344.5px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+        transform: translateX(-20px);
+    }
+    .boxer{
+        display: grid;
+        grid-template-columns:350px 300px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+    .box{
+        margin: 0;
+        padding: 0;
+    }
+    .from{
+        margin: 0;
+        padding: 0;
+        transform: none;
+    }
+    .mar{
+        width: 100%;
+    }
+    .mar-img img{
+        width: 285.75px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .girl img{
+width: 307.86px;
+height: 500px;
+    }
+
+    .girl{
+        width: 100%;
+    }
+    .krish{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .popular{
+        margin: 0;
+        padding: 0;
+        transform: none;
+    }
+    .pop{
+        /* margin:0; */
+        /* padding: 0; */
+        transform: none;
+    }
+    .pop p{
+        margin: 10px;
+    }
+    .bahu{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px ;
+    }
+    .cool{
+        margin: 0;
+        padding: 0;
+    }
+    .all{
+        margin: 0;
+    }
+    .flower button{
+        margin: 0;
+        padding: 0;
+        transform: none;
+    }
+    .flower h2{
+        box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: "TT Norms", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 40px;
+/* font-variant-ligatures: no-common-ligatures */
+font-weight: 700;
+height: 80px;
+letter-spacing: -0.01px;
+line-height: 40px;
+width: 270px;
+    }
+    .from button{
+transform: none;
+    }
+    .minibar{
+
+    }
+    .minibar h2{
+        margin: 0;
+        transform: none;
+        padding: 0;
+        width: 250px;
+    }
+    .from h2{
+        transform: none;
+        width: 290px;
+    }
+    .pet h2{
+        width: 290px;
+transform: none;
+margin: 0;
+    }
+    .pet button{
+   transform: none;
+    }
+.minibar button{
+transform: none;
+}
+
+.chain{
+    width: 100%;
+    /* margin: 0; */
+    padding: 0;
+    transform: none;
+}
+.writing h2{
+    transform: none;
+}
+.type1{
+    margin: 0;
+}
+.noor {
+display: flex;
+width: 100%;
+}
+.logo svg{
+    height: 18px;
+    width: 32px;
+    object-fit: cover;
+}
+.golo svg{
+width: 112px;
+height: 13px;
+}
+.button{
+    margin-top: 10px;
+}
+.in{
+    width: 78.3px;
+    height: 40px;
+}
+.up{
+    height: 40px;
+    width: 86.48px;
+}
+.banner-text{
+    box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+font-family: norms-medium;
+font-size: 22px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: normal;
+line-height: 28px;
+width: 330px;
+margin-left: 220px;
+margin-top: -5px;
+}
+.cover{
+    margin-left: 180px;
+}
+.saved{
+    margin-left: 290px;
+}
     
 
-@media (min-wdth:200px){
+
+
+
+
+
+
+
+
 
 }
 
