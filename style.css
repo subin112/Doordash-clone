@@ -105,6 +105,7 @@ letter-spacing: -0.511333px;
 /* line-height: 24px, */
 /* margin-left: 2px; */
 transform: translateX(-2px);
+padding-bottom: 2px;
 
 }
 .discover{
@@ -139,7 +140,7 @@ line-height: 40px;
     justify-content: space-between;
     background-color: #ffffff;
     width: 408px;
-    transform: translateX(712px);
+    transform: translateX(713px);
     border-radius: 150px;
     margin-top: 24px;
     border: none;
@@ -149,17 +150,18 @@ line-height: 40px;
 }
 .cover input{
     border: none;
-}
-
-::placeholder{
-font-family: norms-medium;
+    margin-left: -63px;
+    font-family: norms-medium;
 font-size: 16px;
 font-variant-ligatures: normal;
 font-weight: 500;
 letter-spacing: normal;
 line-height: 22px;
+ transform: translateY(-3px);
+ 
 
 }
+
 .saved{
     display: flex;
     background-color: #ffffff;
@@ -190,8 +192,8 @@ padding-top: 6px;
 /* border-radius: 20px; */
 }
 .saved svg{
-    margin-top: 7px;
-    margin-right: 2px;
+    margin-top: 8px;
+    margin-right: 4px;
 }
     
 
@@ -210,15 +212,16 @@ padding-top: 6px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    gap: 120px;
+    gap: 80px;
     margin-top: 124px;
-    transform: translateX(-50px);
+    transform: translateX(0px);
 
 }
 .scooter{
     box-sizing: border-box;
     display: block;
     text-align: center;
+margin-left: -40px;
     
 }
 .scooter h2{
@@ -248,7 +251,7 @@ letter-spacing: -0.01px;
 line-height: 24px;
 text-align: center;
 margin-top: 8px;
-transform: translateX(-31px);
+transform: translateX(-29px);
 /* margin-left: -2px; */
 }
 .arrow h3{
@@ -262,10 +265,13 @@ font-size: 18px;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height:22px;
+margin-top: 13px;
+
 }
 .house {
     display: block;
     text-align: center;
+    
 }
 .non h2{
     box-sizing: border-box;
@@ -279,7 +285,8 @@ letter-spacing: -0.01px;
 line-height: 40px;
 width: 200px;
 /* margin-left: 5px; */
-transform: translateX(-10px);
+transform: translateX(26px);
+margin-top: -4px;
 }
 .house span{
     width: 200px;
@@ -290,7 +297,7 @@ transform: translateX(-10px);
     text-align: center;
     justify-content: center;
     align-items: center;
-    transform: translateX(35px);
+    transform: translateX(10px);
 
 }
 .mobile h2{
@@ -304,12 +311,12 @@ font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px; 
 width: 200px;
+margin-left: 26px;
+margin-top: -4px;
 }
 .mobile span{
 width: 200px;
 display: block;
-}
-.mobile h3{
 
 }
 .start2 h3{
@@ -323,6 +330,7 @@ font-variant-ligatures: normal;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 22px;
+margin-top: 10px;
 
 }
 .arrow svg{
@@ -331,6 +339,7 @@ line-height: 22px;
 }
 .arrow{
     display: flex;
+    margin-left: 30px;
 }
 .arrow h3{
     box-sizing: border-box;
@@ -351,7 +360,7 @@ line-height: 22px;
     transform: translateX(-22px);
 }
 .type1{
-    margin-left: -13px;
+    margin-left: -4px;
 }
 .type2 img{
      height: 154px;
@@ -368,11 +377,9 @@ line-height: 22px;
     color: red;
     fill:#eb1700
 }
-.start img{
-    
-}
 .start2{
     display: flex;
+    text-align: center;
 }
 .start1{
     display: flex;
@@ -388,6 +395,8 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 24px;
+transform: translateX(-9px);
+margin-top: 8px;
 
 
 }
@@ -1270,8 +1279,8 @@ line-height: 22px
     align-items: center;
     border-radius: 20px;
     /* margin-left: 20px; */
-    transform: translateX(10px);
-    margin-top: -11px;
+    transform: translateX(12px);
+    margin-top: -12px;
     color: #fef1ee;
     
 }
@@ -1349,9 +1358,6 @@ line-height: 22px;
 }
 .lap{
     margin-left: 24px;
-}
-.phone{
-    /* padding-right: 50px; */
 }
 .app{
     display: block;
@@ -1616,9 +1622,6 @@ width: 270px;
     .from button{
 transform: none;
     }
-    .minibar{
-
-    }
     .minibar h2{
         margin: 0;
         transform: none;
@@ -1697,7 +1700,9 @@ margin-top: -5px;
 .saved{
     margin-left: 290px;
 }
-    
+.sea{
+display: none;
+    }
 
 
 
@@ -1712,3 +1717,818 @@ margin-top: -5px;
 
 
 
+@media (min-width: 960px) and (max-width:1182px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+    
+    }
+    body{
+    margin: 0;
+    padding: 0;
+    }
+    .navbar{
+    height: 40px;
+    width: 100%;
+}
+
+.logo svg{
+height: 24px;
+width: 42px;
+/* display: none; */
+}
+.golo svg{
+width: 155px;
+height: 18px;
+padding: 0;
+}
+.in .button{
+height: 40px;
+width: 78px;
+}
+.cover{
+transform: none;
+}
+.saved{
+margin-left: 0;
+padding: 0;
+}
+.banner-text{
+width: 742.42px;
+}
+.crave{ 
+width: 100%;
+}
+.crave-img{
+  margin: 0;
+}
+.writing h2{
+transform: none;
+margin: 0;
+padding: 0;
+}
+.dasher{
+width: 100%;
+display: block;
+margin-top: 0;
+
+}
+.scooter{
+display: flex;
+margin-top: 0;
+padding-top: 0;
+}
+.house{
+display: flex;
+}
+.mobile{
+display: flex;
+/* transform: none;/ */
+margin: 0;
+padding: 0;
+}
+
+.type img{
+transform: none;
+height: 124px;
+width: 124px;
+}
+header{
+margin-bottom: 0;
+width: 100%;
+}
+.writing{
+margin: 0;
+}
+.crave-img img{
+width: 461px;
+height: 500px;
+object-fit: cover;
+}
+.full-pink{
+width: 100%;
+padding: 0;
+}
+.less img{
+width: 461px;
+height: 500px;
+object-fit: cover;}
+
+.cover-img{
+width: 100%;}
+
+.grocery{
+margin-left: 0;
+}
+ .noor{
+ width: 100%;
+}
+.medi img{
+width: 495.16px;
+height: 500px;
+object-fit: cover;
+}
+.pack img{
+width: 440.5px;
+height: 440.5px;
+object-fit: cover;
+}
+.boxer{
+width: 100%;
+grid-template-columns: 460px 460px;
+grid-template-rows: 700px 700px;
+gap: 0;
+height: 1452px;
+}
+.flower h2{
+ width: 300px;
+}
+
+.mar{
+width: 100%;
+}
+.mar img{
+width: 461px;
+height: 500px;
+object-fit: cover;
+}
+.sales{
+width: 100%;
+}
+.girl img{
+width: 461px;
+height: 500px;
+object-fit: cover;
+}
+.krish{
+width: 100%;
+}
+.popular{
+margin: 0;
+padding: 0;
+}
+.bahu{
+margin: 0;
+}
+.flower span{
+ width: 300px;
+}
+.pet h2{
+width: 300px;
+}
+.pet span{
+width: 450px;
+}
+.from h2{
+width: 400px;
+}
+.minibar h2{
+width: 400px;
+}
+header{
+background-image:  url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+            /* small screen */
+
+
+@media (min-width:358px) and (max-width: 1184px) {
+*{
+margin: 0;
+padding: 0;
+}
+header{
+width: 100%;
+margin: 0;
+height: 550px;
+
+}
+body{
+overflow-x: hidden;
+}
+.banner-text{
+width: 350px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: block;
+font-size: 22px;
+/* font-variant-ligatures no-common-ligatures */
+font-weight: 700;
+/* height: 56px; */
+letter-spacing: normal;
+line-height: 28px;
+margin-top: -50px;
+font-family: norms-medium;
+}
+.in{
+width: 64.14px;
+height: 32px;
+}
+.up{
+width: 97,25px;
+height: 32px;
+}
+.button{
+/* margin-right: 0; */
+transform: translateX(-79px);
+}
+.golo svg{
+width: 112px;
+height: 13px;
+}
+.logo svg{
+width: 32px;
+height: 18px;
+}
+.discover{
+width: 320px;
+}
+.navbar{
+width: 100%;
+transform: none;
+}
+.cover{
+margin: 0;
+transform: none;
+}
+.saved{
+margin-left: 0;
+}
+.door{
+margin: 0;
+}
+.cover{
+width: 324px;
+height: 48px;
+}
+.dasher{
+width: 100%;
+display: block;
+}
+.scooter{
+display: flex;
+margin-left: 0;
+}
+.house{
+display: flex;
+}
+.mobile{
+display: flex;
+}
+.type img{
+width: 88px;
+height: 88px;
+transform: none;
+}
+.type1 img{
+width: 88px;
+height: 88px;
+}
+.type2 img{
+width: 88px;
+height: 88px;
+}
+.crave{
+width: 100%;
+/* margin: 0; */
+/* padding: 0; */
+display: block;
+display: flex;
+flex-direction: column-reverse;
+}
+.crave-img{
+margin: 0;
+}
+.crave-img img{
+width: 320px;
+height: 180px;
+margin: 0;
+padding: 0;
+transform: none;
+margin: 0;
+transform: none;
+padding: 0;
+}
+.writing{
+ margin: 0;
+ transform: none;
+ /* padding: 0; */
+}
+.writing h2{
+transform: none;
+width: 329px;
+}
+.writing p{
+width: 300px;
+}
+.writing span{
+width: 200px;
+}
+.full-pink{
+width: 100%;
+display: block;
+}
+.less img{
+width: 320px;
+height: 180px;
+}
+.words{
+margin: 0;
+}
+.words h2{
+width: 350px;
+}
+.words span{
+ width: 300px;
+}
+.cover-img{
+width: 100%;
+height:350px
+}
+.grocery{
+transform: none;
+margin-left: 0;
+}
+.noor{
+width: 100%;
+display: flex;
+flex-direction: column-reverse;
+}
+.medi img{
+width: 320px;
+height: 180px;
+}
+.ezra{
+margin-top: 0;
+}
+.boxer{
+display: none;
+}
+.mar{
+width: 100%;
+display: flex;
+flex-direction: column-reverse;
+}
+.mar-img img{
+width: 320px;
+height: 180px;
+}
+.paid{
+transform: none;
+}
+.sales{
+width: 100%;
+display: block;
+}
+.girl img{
+width: 320px;
+height: 180px;
+margin: 0;
+}
+.top{
+transform: none;
+}
+.krish{
+width: 100%;
+}
+.bahu{
+margin-left: 0;
+display: block;
+}
+.chain{
+gap: 40px;
+}
+.miami{
+grid-template-columns: 110px 100px 100px 100px;
+grid-template-rows: 100px 100px;
+gap: 30px;
+}
+.sea{
+display: none;
+}
+.krish{
+width: 100%;
+height: 1879px;
+}
+.popular{
+display: block;
+}
+.pop p{
+margin: 0;
+}
+.phone{
+display: block;
+}
+.dope{
+display: block;
+}
+.dope p{
+display: block;
+width: 200px;
+float: left;
+box-sizing: border-box;
+/* margin: 0; */
+/* transform: none; */
+/* padding: 0; */
+
+}
+.code p{
+display: none;
+}
+.all{
+margin-left: 0;
+display: flex;
+flex-direction: column-reverse;
+}
+.cool{
+display: block;
+}
+.lap{
+margin: 0;
+}
+.desk{
+margin-left: 0;
+}
+.desk ul{
+margin: 0;
+}
+.app{
+float: none;
+}
+.code{
+margin: 0;
+padding: 0;
+}
+.paid span{
+width: 350px;
+}
+.top span{
+width: 350px;
+}
+.gift{
+width: 100%;
+}
+.gift span{
+width: 300px;
+}
+.grocery p{
+width: 300px;
+}
+.grocery span{
+width: 270px;
+}
+.ami{
+display: none;
+}
+.door {
+justify-content: center;
+align-items: center;
+transform: translateY(160px);
+margin-left: 90px;
+}
+.mobile{
+transform: none;
+}
+.ezra{
+margin: 0;
+}
+.bussi h2{
+width: 300px;
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family:norms-medium;
+font-size: 24px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 28px;
+}
+.cover{
+width: 324px;
+height: 48px;
+margin-left: 20px;
+margin-top: 20px;
+}
+.row svg{
+ color: black;
+ border: none;
+}
+.row{
+background-color: white;
+}
+.saved{
+justify-content: center;
+text-align: center;
+margin-left: 80px;
+}
+.scooter{
+margin-left: 16px;
+}
+.house{
+margin-left: 16px;
+margin-top: 30px;
+}
+.fan{
+margin-left: 30px;
+text-align: left;
+}
+.fan span{
+text-align: left;
+margin-left: 13px;
+width: 200px;
+}
+}
+
+
+
+@media (max-width:775px){
+.banner-text{
+margin-left: 200px;
+}
+.cover{
+margin-left: 220px;
+}
+.saved{
+ margin-left: 270px;
+}
+.scooter{
+justify-content: center;
+}
+.house{
+justify-content: center;
+margin-bottom: 10px;
+}
+.mobile{
+margin-top: 30px;
+}
+.crave-img img{
+width: 725px;
+height: 180px;
+object-fit:none;
+}
+.crave{
+width: 100%;
+}
+.writing h2{
+ width: 100%;
+ box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 24px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 28px;
+
+}
+.writing{
+display: block;
+margin: 0;
+}
+.crave{
+align-items: baseline;
+padding-left: 30px;
+}
+.writing span{
+width: 100%;
+font-size: 18px;
+}
+.writing p{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 14px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 20px;
+width: 90%;
+}
+.writing button{
+margin-top: 20px;
+}
+.full-pink{
+width: 100%;
+padding-left: 20px;
+}
+.less img{
+width: 724px;
+height: 180px;
+}
+.words h2{
+width: 100%;
+font-size: 24px;
+}
+
+.words span{
+width: 90%;
+font-size: 14px;
+font-weight: 500px;
+margin-top: 0;
+}
+
+.cover-img{
+width: 100%;
+margin-top: 0;
+padding-top: 0;
+margin-top: -100px;
+}
+
+.gradeient {
+    background-color: rgba(30, 30, 30, 0.6);
+    width: 100%;
+    height: 100%;
+    }
+
+.grocery{
+justify-content: center;
+margin-left: 130px;
+padding-top: 100px;
+}
+.grocery h2{
+width: 400px;
+filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+font-family: norms-medium;
+font-size: 24px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 28px;
+}
+.grocery span{
+width: 66%;
+}
+.grocery p{
+width: 570px;
+margin-left: -80px;
+}
+.grocery button{
+margin-left: 130px;
+}
+.noor{
+width: 100%;
+margin-top: 20px;
+}
+.medi img{
+ width: 724px;
+ height: 180px;
+ margin-left: 20px;
+ }
+ .ezra {
+ margin-left: 100px;
+ }
+ .ezra h1{
+ width: 100%;
+ font-size: 24px;
+ font-weight: 700px;
+ font-family: fonts-medium;
+ }
+ .ezra span{
+ width: 670px;
+ font-family: norm-ragular;
+font-size: 14px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 20px;
+margin-top: 0;
+}
+.ezra button{
+margin-top: 0;
+}
+.mar{
+width: 100%;
+padding-top: 400px;
+margin-top: -270px;
+}
+.mar-img img{
+width: 724px;
+height: 180px;
+margin-left: 20px;
+object-fit:none;
+}
+.bussi{
+margin: 0;
+padding: 0;
+transform: none;
+height: 100px;
+
+}
+.paid{
+margin-left: 20px;
+}
+.paid h2{
+margin-top: 20px;
+width: 100%;
+font-family: norms-medium;
+font-size: 24px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 28px;
+}
+.paid span{
+width: 100%;
+font-family: norm-regular;
+font-size: 14px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 20px;
+}
+.paid button{
+ margin-top: 10px;
+}
+.sales{
+ width: 100%;
+ margin-top: -100px;
+ padding-top: 230px;
+
+}
+
+.girl img{
+width: 724px;
+height: 180px;
+margin-left: 20px;
+}
+.top{
+margin-left: 20px;
+}
+.top h2{
+width: 100%;
+   font-family: norms-medium;
+font-size: 24px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 28px;
+}
+.top span{
+display: block;
+ width: 730px;
+ font-family: norms-medium;
+font-size: 14px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 20px;
+}
+.top button{
+margin-top: 10px;
+}
+
+    
+}
+
+       /* tablet resposive */ 
+       @media (min-width: 775px) and (max-width: 1185px){ 
+ 
+*{
+margin: 0;
+padding: 0;
+}
+
+.discover{
+margin-left: 390px;
+}
+.logo svg{
+ width: 42px;
+ height: 24px;
+}
+.golo svg{
+width: 155px;
+height: 18px;
+}
+.door{
+transform: none;
+}
+.banner-text{
+width: 800px;
+font-family: norms-bold;
+font-size: 40px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 40px;
+margin-left: -100px;
+}
+
+
+
+}
