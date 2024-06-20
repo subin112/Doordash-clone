@@ -33,7 +33,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-left: 160px;
+    margin-left: 172px;
      
 }
 .logo {
@@ -72,7 +72,7 @@ header{
 }
 .button .in{
     height: 40px;
-    width: 77.98px;
+    width: 81.4833px;
     border-radius: 19px;
     border: none;
     background-color: #eb1700;
@@ -84,13 +84,14 @@ font-family:norms-bold;
 font-size: 18px;
 /* font-variant-ligatures: no-common-ligatures; */
 font-weight: 700;
-letter-spacing: -0.511333px;
-line-height: 24px;
+letter-spacing: -0.01px;
+line-height: 22px;
+margin-left: 5px;
 }
 .button .up{
-    width: 86.433px;
+    width: 89.933px;
     height: 40px;
-    border-radius: 19px;
+    border-radius: 20px;
     border: none;
     background-color: #ffffff;
     box-sizing: border-box;
@@ -101,12 +102,18 @@ font-family: norms-bold;
 font-size: 18px;
 /* font-variant-ligatures: no-common-ligatures; */
 font-weight: 700;
-letter-spacing: -0.511333px;
-/* line-height: 24px, */
+letter-spacing: -0.01px;
+line-height: 22px;
 /* margin-left: 2px; */
 transform: translateX(-2px);
-padding-bottom: 2px;
+/* padding-bottom: 2px; */
 
+}
+.siva{
+    display: none;
+}
+.dev{
+    display: none;
 }
 .discover{
     display: block;
@@ -459,6 +466,9 @@ line-height: 40px;
 width: 350px;
 margin-bottom: 10px;
 transform: translateY(-10px);
+}
+.saved .deep{
+display: none;
 }
 .writing span{
     box-sizing: border-box;
@@ -1398,9 +1408,6 @@ float: right;
     background-color: #3a3a3a;
     color: white;
     margin-top: 10px;
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
-    /* object-fit: cover; */
     
 }
 .app svg{
@@ -1408,301 +1415,6 @@ float: right;
 
 }
 
-@media (min-width:768px) and (max-width:954px){
-
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
-}
-    .navbar{
-        margin: 0;
-        padding: 0;
-    /* box-sizing: border-box; */
-    width: 100%;
-    }
-  
-      header{
-        background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
-        width: 100%;
-        object-fit: cover;
-        height: 650px;
-        margin: 0;
-        padding: 0;
-    }
-    .cover{
-        transform: none;
-        /* margin: 0; */
-        /* padding: 0; */
-    }
-    .saved{
-        margin-left: 0;
-    }
-    .crave-img img{
-        width: 294.5px;
-        height: 500px;
-        object-fit: cover;
-    }
-    .banner-text{
-        color: rgb(255, 255, 255);
-    text-align: center;
-    max-width: 750px;
-    }
-    .dasher{
-        width: 100%;
-        display: block;
-        /* margin:0; */
-        /* padding: 0; */
-        transform: none;
-        justify-content: center;
-
-    }
-    .scooter{
-
-        /* margin: 0; */
-        width: 100%;
-        display: flex;
-        /* margin-left: 200px; */
-    }
-    .house{
-        display: flex;
-    }
-    .start{
-        display: block;
-    }
-    .mobile{
-        display: flex;
-        transform: none;
-    }
-    .door{
-        width: 100%;
-        margin-top: 23px;
-        /* margin-left: 10px; */
-        padding: 0;
-        margin-left: 165px;
-        /* transform: none; */
-    }
-    .medi{
-        margin: 0;
-        padding: 0;
-    }
-    .medi img{
-        width: 346.2px;
-        height: 500px;
-        object-fit: cover;
-        margin: 0;
-        padding: 0;
-        transform: none;
-    }
-    .cover-img{
-        width: 100%;
-
-    }
-    .ezra{
-        /* margin: 0; */
-        margin-left: 20px;
-        padding: 0;
-        /* transform: none; */
-        /* width: 100%; */
-        gap: none;
-    }
-    .grocery{
-        margin: 0;
-        padding: 0;
-        /* transform: none; */
-    }
-    .full-pink{
-        width: 100%;
-        /* margin: 0; */
-        /* padding: 0; */
-        transform: none;
-    }
-    .less img{
-        width: 303.56px;
-        height: 500px;
-        object-fit: cover;
-    }
-    .boxer{
-        width: 100%;
-        /* margin: 0; */
-        /* padding: 0; */
-    }
-    .pack img{
-        width: 344.5px;
-        height: 344.5px;
-        object-fit: cover;
-        margin: 0;
-        padding: 0;
-        transform: translateX(-20px);
-    }
-    .boxer{
-        display: grid;
-        grid-template-columns:350px 300px;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        
-    }
-    .box{
-        margin: 0;
-        padding: 0;
-    }
-    .from{
-        margin: 0;
-        padding: 0;
-        transform: none;
-    }
-    .mar{
-        width: 100%;
-    }
-    .mar-img img{
-        width: 285.75px;
-        height: 500px;
-        object-fit: cover;
-    }
-    .girl img{
-width: 307.86px;
-height: 500px;
-    }
-
-    .girl{
-        width: 100%;
-    }
-    .krish{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-    .popular{
-        margin: 0;
-        padding: 0;
-        transform: none;
-    }
-    .pop{
-        /* margin:0; */
-        /* padding: 0; */
-        transform: none;
-    }
-    .pop p{
-        margin: 10px;
-    }
-    .bahu{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 150px 150px 150px 150px ;
-    }
-    .cool{
-        margin: 0;
-        padding: 0;
-    }
-    .all{
-        margin: 0;
-    }
-    .flower button{
-        margin: 0;
-        padding: 0;
-        transform: none;
-    }
-    .flower h2{
-        box-sizing: border-box;
-color: rgb(25, 25, 25);
-display: block;
-font-family: "TT Norms", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-font-size: 40px;
-/* font-variant-ligatures: no-common-ligatures */
-font-weight: 700;
-height: 80px;
-letter-spacing: -0.01px;
-line-height: 40px;
-width: 270px;
-    }
-    .from button{
-transform: none;
-    }
-    .minibar h2{
-        margin: 0;
-        transform: none;
-        padding: 0;
-        width: 250px;
-    }
-    .from h2{
-        transform: none;
-        width: 290px;
-    }
-    .pet h2{
-        width: 290px;
-transform: none;
-margin: 0;
-    }
-    .pet button{
-   transform: none;
-    }
-.minibar button{
-transform: none;
-}
-
-.chain{
-    width: 100%;
-    /* margin: 0; */
-    padding: 0;
-    transform: none;
-}
-.writing h2{
-    transform: none;
-}
-.type1{
-    margin: 0;
-}
-.noor {
-display: flex;
-width: 100%;
-}
-.logo svg{
-    height: 18px;
-    width: 32px;
-    object-fit: cover;
-}
-.golo svg{
-width: 112px;
-height: 13px;
-}
-.button{
-    margin-top: 10px;
-}
-.in{
-    width: 78.3px;
-    height: 40px;
-}
-.up{
-    height: 40px;
-    width: 86.48px;
-}
-.banner-text{
-    box-sizing: border-box;
-color: rgb(255, 255, 255);
-display: block;
-font-family: norms-medium;
-font-size: 22px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 700;
-letter-spacing: normal;
-line-height: 28px;
-width: 330px;
-margin-left: 220px;
-margin-top: -5px;
-}
-.cover{
-    margin-left: 180px;
-}
-.saved{
-    margin-left: 290px;
-}
-.sea{
-display: none;
-    }
 
 
 
@@ -1711,824 +1423,516 @@ display: none;
 
 
 
-
-
-}
-
-
-
-@media (min-width: 960px) and (max-width:1182px){
-    *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* width: 100%; */
-    
-    }
-    body{
-    margin: 0;
-    padding: 0;
-    }
-    .navbar{
-    height: 40px;
-    width: 100%;
-}
-
-.logo svg{
-height: 24px;
-width: 42px;
-/* display: none; */
-}
-.golo svg{
-width: 155px;
-height: 18px;
-padding: 0;
-}
-.in .button{
-height: 40px;
-width: 78px;
-}
-.cover{
-transform: none;
-}
-.saved{
-margin-left: 0;
-padding: 0;
-}
-.banner-text{
-width: 742.42px;
-}
-.crave{ 
-width: 100%;
-}
-.crave-img{
-  margin: 0;
-}
-.writing h2{
-transform: none;
-margin: 0;
-padding: 0;
-}
-.dasher{
-width: 100%;
-display: block;
-margin-top: 0;
-
-}
-.scooter{
-display: flex;
-margin-top: 0;
-padding-top: 0;
-}
-.house{
-display: flex;
-}
-.mobile{
-display: flex;
-/* transform: none;/ */
-margin: 0;
-padding: 0;
-}
-
-.type img{
-transform: none;
-height: 124px;
-width: 124px;
-}
-header{
-margin-bottom: 0;
-width: 100%;
-}
-.writing{
-margin: 0;
-}
-.crave-img img{
-width: 461px;
-height: 500px;
-object-fit: cover;
-}
-.full-pink{
-width: 100%;
-padding: 0;
-}
-.less img{
-width: 461px;
-height: 500px;
-object-fit: cover;}
-
-.cover-img{
-width: 100%;}
-
-.grocery{
-margin-left: 0;
-}
- .noor{
- width: 100%;
-}
-.medi img{
-width: 495.16px;
-height: 500px;
-object-fit: cover;
-}
-.pack img{
-width: 440.5px;
-height: 440.5px;
-object-fit: cover;
-}
-.boxer{
-width: 100%;
-grid-template-columns: 460px 460px;
-grid-template-rows: 700px 700px;
-gap: 0;
-height: 1452px;
-}
-.flower h2{
- width: 300px;
-}
-
-.mar{
-width: 100%;
-}
-.mar img{
-width: 461px;
-height: 500px;
-object-fit: cover;
-}
-.sales{
-width: 100%;
-}
-.girl img{
-width: 461px;
-height: 500px;
-object-fit: cover;
-}
-.krish{
-width: 100%;
-}
-.popular{
-margin: 0;
-padding: 0;
-}
-.bahu{
-margin: 0;
-}
-.flower span{
- width: 300px;
-}
-.pet h2{
-width: 300px;
-}
-.pet span{
-width: 450px;
-}
-.from h2{
-width: 400px;
-}
-.minibar h2{
-width: 400px;
-}
-header{
-background-image:  url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
-width: 100%;
-}
-
-
-}
-
-
-
-
-
-
-
-
-            /* small screen */
-
-
-@media (min-width:358px) and (max-width: 1184px) {
-*{
-margin: 0;
-padding: 0;
-}
-header{
-width: 100%;
-margin: 0;
-height: 550px;
-
-}
-body{
-overflow-x: hidden;
-}
-.banner-text{
-width: 350px;
-box-sizing: border-box;
-color: rgb(255, 255, 255);
-display: block;
-font-size: 22px;
-/* font-variant-ligatures no-common-ligatures */
-font-weight: 700;
-/* height: 56px; */
-letter-spacing: normal;
-line-height: 28px;
-margin-top: -50px;
-font-family: norms-medium;
-}
-.in{
-width: 64.14px;
-height: 32px;
-}
-.up{
-width: 97,25px;
-height: 32px;
-}
-.button{
-/* margin-right: 0; */
-transform: translateX(-79px);
-}
-.golo svg{
-width: 112px;
-height: 13px;
-}
-.logo svg{
-width: 32px;
-height: 18px;
-}
-.discover{
-width: 320px;
-}
-.navbar{
-width: 100%;
-transform: none;
-}
-.cover{
-margin: 0;
-transform: none;
-}
-.saved{
-margin-left: 0;
-}
-.door{
-margin: 0;
-}
-.cover{
-width: 324px;
-height: 48px;
-}
-.dasher{
-width: 100%;
-display: block;
-}
-.scooter{
-display: flex;
-margin-left: 0;
-}
-.house{
-display: flex;
-}
-.mobile{
-display: flex;
-}
-.type img{
-width: 88px;
-height: 88px;
-transform: none;
-}
-.type1 img{
-width: 88px;
-height: 88px;
-}
-.type2 img{
-width: 88px;
-height: 88px;
-}
-.crave{
-width: 100%;
-/* margin: 0; */
-/* padding: 0; */
-display: block;
-display: flex;
-flex-direction: column-reverse;
-}
-.crave-img{
-margin: 0;
-}
-.crave-img img{
-width: 320px;
-height: 180px;
-margin: 0;
-padding: 0;
-transform: none;
-margin: 0;
-transform: none;
-padding: 0;
-}
-.writing{
- margin: 0;
- transform: none;
- /* padding: 0; */
-}
-.writing h2{
-transform: none;
-width: 329px;
-}
-.writing p{
-width: 300px;
-}
-.writing span{
-width: 200px;
-}
-.full-pink{
-width: 100%;
-display: block;
-}
-.less img{
-width: 320px;
-height: 180px;
-}
-.words{
-margin: 0;
-}
-.words h2{
-width: 350px;
-}
-.words span{
- width: 300px;
-}
-.cover-img{
-width: 100%;
-height:350px
-}
-.grocery{
-transform: none;
-margin-left: 0;
-}
-.noor{
-width: 100%;
-display: flex;
-flex-direction: column-reverse;
-}
-.medi img{
-width: 320px;
-height: 180px;
-}
-.ezra{
-margin-top: 0;
-}
-.boxer{
-display: none;
-}
-.mar{
-width: 100%;
-display: flex;
-flex-direction: column-reverse;
-}
-.mar-img img{
-width: 320px;
-height: 180px;
-}
-.paid{
-transform: none;
-}
-.sales{
-width: 100%;
-display: block;
-}
-.girl img{
-width: 320px;
-height: 180px;
-margin: 0;
-}
-.top{
-transform: none;
-}
-.krish{
-width: 100%;
-}
-.bahu{
-margin-left: 0;
-display: block;
-}
-.chain{
-gap: 40px;
-}
-.miami{
-grid-template-columns: 110px 100px 100px 100px;
-grid-template-rows: 100px 100px;
-gap: 30px;
-}
-.sea{
-display: none;
-}
-.krish{
-width: 100%;
-height: 1879px;
-}
-.popular{
-display: block;
-}
-.pop p{
-margin: 0;
-}
-.phone{
-display: block;
-}
-.dope{
-display: block;
-}
-.dope p{
-display: block;
-width: 200px;
-float: left;
-box-sizing: border-box;
-/* margin: 0; */
-/* transform: none; */
-/* padding: 0; */
-
-}
-.code p{
-display: none;
-}
-.all{
-margin-left: 0;
-display: flex;
-flex-direction: column-reverse;
-}
-.cool{
-display: block;
-}
-.lap{
-margin: 0;
-}
-.desk{
-margin-left: 0;
-}
-.desk ul{
-margin: 0;
-}
-.app{
-float: none;
-}
-.code{
-margin: 0;
-padding: 0;
-}
-.paid span{
-width: 350px;
-}
-.top span{
-width: 350px;
-}
-.gift{
-width: 100%;
-}
-.gift span{
-width: 300px;
-}
-.grocery p{
-width: 300px;
-}
-.grocery span{
-width: 270px;
-}
-.ami{
-display: none;
-}
-.door {
-justify-content: center;
-align-items: center;
-transform: translateY(160px);
-margin-left: 90px;
-}
-.mobile{
-transform: none;
-}
-.ezra{
-margin: 0;
-}
-.bussi h2{
-width: 300px;
-box-sizing: border-box;
-color: rgb(25, 25, 25);
-display: block;
-font-family:norms-medium;
-font-size: 24px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 700;
-letter-spacing: -0.01px;
-line-height: 28px;
-}
-.cover{
-width: 324px;
-height: 48px;
-margin-left: 20px;
-margin-top: 20px;
-}
-.row svg{
- color: black;
- border: none;
-}
-.row{
-background-color: white;
-}
-.saved{
-justify-content: center;
-text-align: center;
-margin-left: 80px;
-}
-.scooter{
-margin-left: 16px;
-}
-.house{
-margin-left: 16px;
-margin-top: 30px;
-}
-.fan{
-margin-left: 30px;
-text-align: left;
-}
-.fan span{
-text-align: left;
-margin-left: 13px;
-width: 200px;
-}
-}
-
-
-
-@media (max-width:775px){
-.banner-text{
-margin-left: 200px;
-}
-.cover{
-margin-left: 220px;
-}
-.saved{
- margin-left: 270px;
-}
-.scooter{
-justify-content: center;
-}
-.house{
-justify-content: center;
-margin-bottom: 10px;
-}
-.mobile{
-margin-top: 30px;
-}
-.crave-img img{
-width: 725px;
-height: 180px;
-object-fit:none;
-}
-.crave{
-width: 100%;
-}
-.writing h2{
- width: 100%;
- box-sizing: border-box;
-color: rgb(25, 25, 25);
-display: block;
-font-family: norms-medium;
-font-size: 24px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 700;
-letter-spacing: -0.01px;
-line-height: 28px;
-
-}
-.writing{
-display: block;
-margin: 0;
-}
-.crave{
-align-items: baseline;
-padding-left: 30px;
-}
-.writing span{
-width: 100%;
-font-size: 18px;
-}
-.writing p{
-box-sizing: border-box;
-color: rgb(25, 25, 25);
-display: block;
-font-family: norms-medium;
-font-size: 14px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 500;
-letter-spacing: -0.01px;
-line-height: 20px;
-width: 90%;
-}
-.writing button{
-margin-top: 20px;
-}
-.full-pink{
-width: 100%;
-padding-left: 20px;
-}
-.less img{
-width: 724px;
-height: 180px;
-}
-.words h2{
-width: 100%;
-font-size: 24px;
-}
-
-.words span{
-width: 90%;
-font-size: 14px;
-font-weight: 500px;
-margin-top: 0;
-}
-
-.cover-img{
-width: 100%;
-margin-top: 0;
-padding-top: 0;
-margin-top: -100px;
-}
-
-.gradeient {
-    background-color: rgba(30, 30, 30, 0.6);
-    width: 100%;
-    height: 100%;
-    }
-
-.grocery{
-justify-content: center;
-margin-left: 130px;
-padding-top: 100px;
-}
-.grocery h2{
-width: 400px;
-filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
-font-family: norms-medium;
-font-size: 24px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 700;
-letter-spacing: -0.01px;
-line-height: 28px;
-}
-.grocery span{
-width: 66%;
-}
-.grocery p{
-width: 570px;
-margin-left: -80px;
-}
-.grocery button{
-margin-left: 130px;
-}
-.noor{
-width: 100%;
-margin-top: 20px;
-}
-.medi img{
- width: 724px;
- height: 180px;
- margin-left: 20px;
- }
- .ezra {
- margin-left: 100px;
- }
- .ezra h1{
- width: 100%;
- font-size: 24px;
- font-weight: 700px;
- font-family: fonts-medium;
- }
- .ezra span{
- width: 670px;
- font-family: norm-ragular;
-font-size: 14px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 500;
-letter-spacing: -0.01px;
-line-height: 20px;
-margin-top: 0;
-}
-.ezra button{
-margin-top: 0;
-}
-.mar{
-width: 100%;
-padding-top: 400px;
-margin-top: -270px;
-}
-.mar-img img{
-width: 724px;
-height: 180px;
-margin-left: 20px;
-object-fit:none;
-}
-.bussi{
-margin: 0;
-padding: 0;
-transform: none;
-height: 100px;
-
-}
-.paid{
-margin-left: 20px;
-}
-.paid h2{
-margin-top: 20px;
-width: 100%;
-font-family: norms-medium;
-font-size: 24px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 700;
-letter-spacing: -0.01px;
-line-height: 28px;
-}
-.paid span{
-width: 100%;
-font-family: norm-regular;
-font-size: 14px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 500;
-letter-spacing: -0.01px;
-line-height: 20px;
-}
-.paid button{
- margin-top: 10px;
-}
-.sales{
- width: 100%;
- margin-top: -100px;
- padding-top: 230px;
-
-}
-
-.girl img{
-width: 724px;
-height: 180px;
-margin-left: 20px;
-}
-.top{
-margin-left: 20px;
-}
-.top h2{
-width: 100%;
-   font-family: norms-medium;
-font-size: 24px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 700;
-letter-spacing: -0.01px;
-line-height: 28px;
-}
-.top span{
-display: block;
- width: 730px;
- font-family: norms-medium;
-font-size: 14px;
-font-variant-ligatures: no-common-ligatures;
-font-weight: 500;
-letter-spacing: -0.01px;
-line-height: 20px;
-}
-.top button{
-margin-top: 10px;
-}
-
-    
-}
-
-       /* tablet resposive */ 
-       @media (min-width: 775px) and (max-width: 1185px){ 
+       /* laptop responsive */
+       @media  (max-width: 1183px){ 
  
 *{
 margin: 0;
 padding: 0;
+box-sizing: border-box;
+transform: none;
+}
+
+.logo svg{
+  height: 24px;
+  width: 42px;
+    
 }
 
 .discover{
-margin-left: 390px;
+    margin-top: 222px;
 }
-.logo svg{
- width: 42px;
- height: 24px;
+.golo{
+    margin-top: 3px;
+    /* transform: translateX(-1px); */
 }
 .golo svg{
-width: 155px;
 height: 18px;
+width: 155px;
+
+}
+.pop p{
+    margin: 0;
 }
 .door{
-transform: none;
+margin-top:8px;
+margin-left:192px;
 }
 .banner-text{
-width: 800px;
+width: 750px;
+/* text-align: center; */
 font-family: norms-bold;
 font-size: 40px;
-font-variant-ligatures: no-common-ligatures;
+/* font-variant-ligatures: no-common-ligatures; */
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-margin-left: -100px;
+transform: translateX(217px);
+}
+header{
+    /* height: 650px; */
+height: 100%;
+    width: 100%;
+}
+.cover{
+    width: 408px;
+    height: 56px;
+    /* margin: 0; */
+    transform: translateX(387px);
+    margin-top: 23px;
+}
+.row{
+    background-color: #ffffff;
+}
+.row svg{
+    border: none;
+    color: #191919;
+    
+}
+.saved p{
+    display: block;
+}
+
+.saved .deep{
+    display: none;
+    
+}
+.saved{
+width: 203.5px;
+height: 32px;
+transform: none;
+margin-left: 490px;
+border-bottom-color: rgb(25, 25, 25);
+}
+.button{
+    transform: none;
+    margin-right: 21px;
+    /* padding-top: 10px; */
+}
+.fan{
+    margin-left: 50px;
+}
+.dasher{
+    display: block;
+    width: 100%;
+    margin-top: -25px;
+}
+.scooter{
+    display: flex;
+    justify-content: center;
+    /* margin: 0; */
+    /* width: 100%; */
+    padding-left: 115px;
+
+}
+.type img{
+    width: 124px;
+    height: 124px;
+    margin-top: -8px;
+    /* transform: translateX(-40px); */
+    
+}
+.type1 img{
+    width: 124px;
+    height: 124px;
+
+}
+.type2 img{
+    width: 124px;
+    height: 124px;
+    margin-top: -16px;
+    /* transform: translateX(9px); */
+    
+}
+.fan span{
+    width: 400px;
+
+margin-left: 8x;
+}
+
+.house{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+    
+}
+.start1 svg{
+    width: 16px;
+    height: 16px;
+}
+.arrow svg{
+    width: 16px;
+    height: 16px;
+}
+.fan span{
+box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: -0.01px;
+line-height: 24px;
+width: 250px;
+text-align: left;
+transform: translateX(-26px);
+margin-top: 0;
+}
+.fan h2{
+    width: 250px;
+text-align: left;
+transform: translateX(-22px);
+margin-top: -9px;
+}
+.arrow {
+    display: flex;
+}
+.start2 svg{
+color:#eb1700;
+height: 16px;
+width: 16px;
+}
+.arrow h3{
+    box-sizing: border-box;
+color: rgb(235, 23, 0);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 14px;
+font-variant-ligatures: normal;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 20px;
+transform: translateX(-55px);
+}
+.scooter{
+    text-align: left;
+    /* transform: translateX(-4px); */
+}
+.house{
+    text-align: left;
+    
+}
+.mobile{
+    display: flex;
+    text-align: left;
+    margin-top: 36px;
+    transform: none;
+}
+.non{
+    margin-left: 57px;
+}
+.non span{
+    margin-left: 35px;
+    margin-top: 0;
+}
+.non h3{
+    box-sizing: border-box;
+color: rgb(235, 23, 0);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 14px;
+font-variant-ligatures: normal;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 20px;
+margin-left: 24px;
+margin-top: 13px;
+}
+.shoe h2{
+margin-left: 35px;
+}
+.shoe span{
+    margin-left: 35px;
+}
+.start2 h3{
+    margin-left: 35px;
+}
+.start2 {
+    display: flex;
+    /* text-align: center;ju */
+    align-items: center;
+    
+}
+.type1{
+    transform: translateX(27px);
+}
+.grocery {
+margin-left: 500px;
+}
+.bahu{
+    grid-template-columns: 250px 250px 220px 90px;
+}
+
+       }
+
+/* Tab responsive */
+
+@media (max-width:959px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bahu{
+    grid-template-columns: 270px 300px 270px 70px;
+  margin-left: 0;
+}
+.girl img{
+    width: 459px;
+    height: 500px;
+}
+.mar-img img{
+    width: 459px;
+    height: 500px;
+}
+.pack img{
+    width: 439.5px;
+    height: 439.5px;
+}
+.boxer{
+    grid-template-columns: 440px 440px;
+    /* gap: 30px; */
+}
+.medi img{
+    width: 459px;
+    height: 500px;
+}
+.cover-img{
+    width: 100%;
+    height: 600px;
+}
+.less img{
+    width: 459px;
+    height: 500px;
+}
+.crave-img img{
+    width: 459px;
+    height: 500px;
+}
+.grocery{
+    margin-left: 300px;
+}
+.flower h2{
+    font-family: norms-bold;
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 40px;
+    letter-spacing: -0.01px;
+    width: 395px;
+}
+.pet h2{
+    width: 395px;
+}
+.minibar h2{
+    width: 395.5px;
+    font-family: norms-bold;
+    font-size: 40px;
+    letter-spacing: -0.01px;
+    font-weight: 700px;
+    line-height: 40px;
+}
+.from h2{
+    width: 395.5px;
+}
+.banner-text{
+    transform: translateX(104px);
+}
+.discover{
+    margin-top: 218px;
+}
+.golo svg{
+    width: 112px;
+    height: 13px;
+    transform: translateX(-4px);
+}
+.logo svg{
+    width: 32px;
+    height: 18px;
+    margin-left: 18px;
+}
+.cover{
+ transform: translateX(274px);
+ margin-top: 24px;
+}
+.saved {
+width: 88.73px;
+height: 32px;
+ margin-left: 434px;
+}
+.saved .deep {
+    display: block;
+}
+.saved p{
+    display: none;
+   
+}
+.type img{
+    transform: translateX(-45px);
+    margin-top: -9px;
+}
+.fan{
+    transform: translateX(-5px);
+}
+.type1 img{
+margin-top: -6px;
+transform: translateX(-2px);
+
+}
+.non{
+    transform: translateX(6px);
+    margin-top: -2px;
+}
+.door{
+   margin-left: 192px; 
+}
+.button{
+    transform: translateX(-2px);
+}
+
 }
 
 
 
+      /* mobile responsive */
+@media (max-width:768px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.bahu{
+    margin-left: 0;
+    grid-template-columns: 220px 200px 200px 100px;
 }
+.girl img{
+    width: 307.17px;
+    height: 500px;
+}
+.mar-img img{
+    width: 285.08px;
+    height: 500px;
+    object-fit: cover;
+}
+.pack img{
+    width: 344px;
+    height: 344px;
+}
+.boxer{
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 700px 700px;
+}
+.medi img{
+    width: 342.28px;
+    height: 500px;
+    object-fit: cover;
+}
+.discover{
+    margin-top: 214px;
+}
+.cover-img{
+    width: 100%;
+    height: 600px;
+}
+.less img{
+    width: 302px;
+    height: 500px;
+    object-fit: cover;
+}
+.crave-img img{
+    width: 293.84px;
+    height: 500px;
+    object-fit: cover;
+}
+.banner-text{
+    height: 56px;
+width: 350px;
+font-family: norms-bold;
+font-size: 22px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: normal;
+line-height: 28px;
+transform: translateX(209px);
+}
+.grocery{
+    margin-left: 200px;
+}
+.flower h2{
+  width: 309px;  
+}
+.pet h2{
+    width: 309px;
+}
+.miami{
+    grid-template-columns: 110px 130px 130px 110px 20px;
+}
+.chain{
+    gap: 200px;
+}
+.cool{
+    display: flex;
+    /* flex-direction: column-reverse; */
+}
+.all{
+    margin-left: 0;
+}
+.code{
+    display: flex;
+    padding-left: 0;
+    gap: 200px;
+}
+.cool{
+    display: block;
+}
+.cover{
+    transform: translateX(180px);
+}
+.saved{
+    margin-left: 340px;
+}
+
+
+
+
+}
+
+@media (max-width:767px) {
+ 
+    header{
+        width: 100%;
+        height: 550px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
