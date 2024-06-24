@@ -21,9 +21,14 @@ body{
     padding: 0;
     /* overflow-x: hidden; */
 }
+.rope{
+    justify-content: center;
+    align-items: center;
+}
   
 .navbar{
-    width: 100%;
+    box-sizing: border-box;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     padding-top: 16px;
@@ -63,9 +68,11 @@ header{
     z-index: 1;
     justify-content: center;
     margin-bottom: 90px;
+    
 }
 .button{
     display: flex;
+    box-sizing: border-box;
     /* box-sizing: border-box; */
     transform: translateX(-22px);
     gap: 10px;
@@ -116,6 +123,7 @@ transform: translateX(-2px);
     display: none;
 }
 .discover{
+    text-align: center;
     display: block;
     /* box-sizing: border-box; */
     /* width: 100%; */
@@ -126,6 +134,7 @@ transform: translateX(-2px);
 
     
 }
+
 
 .banner-text{
     font-family: norms-bold;
@@ -140,22 +149,33 @@ line-height: 40px;
 /* margin-top: 0; */
 }
 .cover{
+    margin: auto;
+    justify-content: center;
+    /* align-items: center; */
     display: flex;
     /* display: block; */
     height: 56px;
     padding: 20px; 
     justify-content: space-between;
     background-color: #ffffff;
-    width: 408px;
-    transform: translateX(713px);
+    max-width: 408px;
+    /* transform: translateX(713px); */
     border-radius: 150px;
     margin-top: 24px;
     border: none;
     outline: none;
+    transform: translateX(-1px);
     /* border: 2px solid ; */
 
 }
+.rope{
+    /* margin:  auto;  */
+    justify-content: center;
+    align-items: center;
+}
 .cover input{
+    justify-content: center;
+    align-items: center;
     border: none;
     margin-left: -63px;
     font-family: norms-medium;
@@ -170,12 +190,17 @@ line-height: 22px;
 }
 
 .saved{
-    display: flex;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    
+    /* align-items: center; */
+    /* display: flex; */
     background-color: #ffffff;
-    width: 203.333px;
+    max-width: 203.333px;
     height: 32px;
     justify-content: center;
-    margin-left: 816px;
+    /* margin-left: 816px; */
     margin-top: 16px;
     border-radius: 20px;
     
@@ -237,7 +262,7 @@ color: rgb(25, 25, 25);
 display: block;
 font-family: norms-bold;
 font-size: 32px;
-width: 200px;
+max-width: 200px;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
@@ -326,6 +351,8 @@ width: 200px;
 display: block;
 
 }
+
+
 .start2 h3{
 box-sizing: border-box;
 color: rgb(235, 23, 0);
@@ -433,6 +460,7 @@ line-height: 24px;
 width: 270px;
 }
 .crave{
+    width: 100%;
     /* width: 70%; */
     display: flex;
     /* border: 2px solid black; */
@@ -450,7 +478,7 @@ width: 270px;
     margin-left: -10px;
 }
 .crave-img img{
-    width: 695.033px;
+    max-width: 695.033px;
     height: 500px;
 }
 .writing h2{
@@ -493,7 +521,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 22px;
-width: 400px;
+max-width: 400px;
 }
 .writing button{
     width: 145.9px;
@@ -529,7 +557,7 @@ margin-top: 30px;
 }
 .less img{
     height: 500px;
-    width: 724px;
+   max-width: 724px;
     margin-top: 74px;
 }
 .words{
@@ -551,7 +579,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-width: 300px;
+max-width: 300px;
 margin-bottom: 20px;
 
 }
@@ -565,7 +593,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 22px;
-width: 400px;
+max-width: 400px;
 margin-bottom: 27px;
 }
 .words button{
@@ -619,7 +647,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 38px;
-width: 350px;
+max-width: 350px;
 text-align: center;
 color: #ffffff;
 margin-bottom: 22px;
@@ -636,7 +664,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 24px;
-width: 400px;
+max-width: 400px;
 align-items: center;
 /* margin-top: 20px; */
 }
@@ -650,7 +678,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 22px;
-width: 500px;
+max-width: 500px;
 text-align: center;
 }
 .grocery button{
@@ -696,7 +724,7 @@ box-sizing: border-box;
 
 }
 .medi img{
-    width: 695.033px;
+   max-width: 695.033px;
     height: 500px;
 }
 .ezra h1{
@@ -709,7 +737,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-width: 290px;
+max-width: 290px;
 }
 .ezra span{
     box-sizing: border-box;
@@ -721,7 +749,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 22px;
-width: 370px;
+max-width: 370px;
 margin-top: 20px;
 margin-bottom: 20px;
 }
@@ -764,7 +792,7 @@ font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
 padding-top: 60px;
-width: 450px;
+max-width: 450px;
 text-align: center;
 }
 .boxer{
@@ -782,7 +810,7 @@ text-align: center;
 
 }
 .pack img{
-width: 552px;
+max-width: 552px;
 height: 552px;
 object-fit: cover;
 }
@@ -803,7 +831,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-width: 500px;
+max-width: 500px;
 text-align: center;
 transform: translateX(28px);
 
@@ -863,7 +891,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-width: 500px;
+max-width: 500px;
 text-align: center;
 transform: translateX(32px);
 }
@@ -918,7 +946,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-width: 500px;
+max-width: 500px;
 text-align: center;
 /* width: 390px; */
 margin-left: 29px;
@@ -974,7 +1002,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-width: 500px;
+max-width: 500px;
 text-align: center;
 margin-left: 30px;
 }
@@ -1046,7 +1074,7 @@ margin-top: 54px;
     display: flex;
     box-sizing: border-box;
     transform: translateX(1px);
-    width: 695.033px;
+    max-width: 695.033px;
     height: 500px;
 }
 .paid{
@@ -1064,7 +1092,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-width: 300px;
+max-width: 300px;
 }
 .paid span{
     box-sizing: border-box;
@@ -1076,7 +1104,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 22px;
-width: 400px;
+max-width: 400px;
 margin-top: 20px;
 
 }
@@ -1111,7 +1139,7 @@ margin-top: 30px;
     
 }
 .girl img{
-width: 724px;
+max-width: 724px;
 height: 500px;
 margin-right: 60px;
 object-fit: cover;
@@ -1134,7 +1162,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-width: 290px;
+max-width: 290px;
 }
 .top span{
     box-sizing: border-box;
@@ -1146,7 +1174,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 22px;
-width: 399px;
+max-width: 399px;
 margin-top: 20px;
 }
 .top button{
@@ -1414,7 +1442,15 @@ float: right;
     fill : #bababa;
 
 }
-
+.fill{
+    display: none;
+}
+.saved .feed{
+    display: none;
+}
+.saved{
+    display: flex;
+}
 
 
 
@@ -1430,7 +1466,7 @@ float: right;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-transform: none;
+
 }
 
 .logo svg{
@@ -1456,10 +1492,12 @@ width: 155px;
 }
 .door{
 margin-top:8px;
-margin-left:192px;
+/* margin-left:192px; */
 }
 .banner-text{
-width: 750px;
+    margin: auto;
+    justify-content: center;
+max-width: 750px;;
 /* text-align: center; */
 font-family: norms-bold;
 font-size: 40px;
@@ -1467,18 +1505,23 @@ font-size: 40px;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-transform: translateX(217px);
+/* transform: translateX(217px); */
 }
 header{
-    /* height: 650px; */
-height: 100%;
-    width: 100%;
+    
+    /* background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_mobile.png"); */
+    /* height: 550px; */
+    height: 650px;
+
+
+    
 }
+
 .cover{
-    width: 408px;
+    max-width: 408px;
     height: 56px;
     /* margin: 0; */
-    transform: translateX(387px);
+    /* transform: translateX(387px); */
     margin-top: 23px;
 }
 .row{
@@ -1498,10 +1541,12 @@ height: 100%;
     
 }
 .saved{
-width: 203.5px;
+    margin: 0auto;
+
+max-width: 203.5px;
 height: 32px;
 transform: none;
-margin-left: 490px;
+/* margin-left: 490px; */
 border-bottom-color: rgb(25, 25, 25);
 }
 .button{
@@ -1522,30 +1567,30 @@ border-bottom-color: rgb(25, 25, 25);
     justify-content: center;
     /* margin: 0; */
     /* width: 100%; */
-    padding-left: 115px;
+    /* padding-left: 115px; */
 
 }
 .type img{
-    width: 124px;
+    max-width: 124px;
     height: 124px;
     margin-top: -8px;
-    /* transform: translateX(-40px); */
+    transform: none;
     
 }
 .type1 img{
-    width: 124px;
+   max-width: 124px;
     height: 124px;
 
 }
 .type2 img{
-    width: 124px;
+   max-width: 124px;
     height: 124px;
     margin-top: -16px;
     /* transform: translateX(9px); */
     
 }
 .fan span{
-    width: 400px;
+    max-width: 400px;
 
 margin-left: 8x;
 }
@@ -1557,7 +1602,7 @@ margin-left: 8x;
     
 }
 .start1 svg{
-    width: 16px;
+    max-width: 16px;
     height: 16px;
 }
 .arrow svg{
@@ -1573,13 +1618,13 @@ font-size: 18px;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 24px;
-width: 250px;
+ max-width: 250px;
 text-align: left;
 transform: translateX(-26px);
 margin-top: 0;
 }
 .fan h2{
-    width: 250px;
+    max-width: 250px;
 text-align: left;
 transform: translateX(-22px);
 margin-top: -9px;
@@ -1664,6 +1709,68 @@ margin-left: 500px;
 .bahu{
     grid-template-columns: 250px 250px 220px 90px;
 }
+.crave-img img{
+    max-width: 683px;
+    height: 500px;
+}
+.crave{
+    justify-content:left;
+}
+.writing{
+    margin-left: 0;
+}
+.crave-img{
+    margin-left: 0;
+    max-width: 683px;
+}
+.words{
+    margin-left: 10px;
+}
+.bahu{
+    margin-left: 0;
+}
+.girl img{
+    margin-right: 0;
+    max-width: 683px;
+    height: 500px;
+}
+.mar-img img{
+    max-width: 683px;
+    transform: none;
+}
+.paid{
+    margin-right: 0;
+}
+.less img{
+    max-width: 683px;
+}
+.words{
+    margin-left: 0;
+}
+.ezra{
+    margin-left: 0;
+}
+.medi img{
+    max-width: 683px;
+
+}
+.pack img{
+    max-width: 540px;
+    height: 541px;
+}
+.boxer{
+    grid-template-columns: 540px 540px;
+    gap: 10px;
+}
+.pet span{
+max-width: ;
+}
+
+
+
+
+
+
 
        }
 
@@ -1676,19 +1783,19 @@ margin-left: 500px;
     box-sizing: border-box;
 }
 .bahu{
-    grid-template-columns: 270px 300px 270px 70px;
+    grid-template-columns: 270px 200px 270px 70px;
   margin-left: 0;
 }
 .girl img{
-    width: 459px;
+    max-width: 459px;
     height: 500px;
 }
 .mar-img img{
-    width: 459px;
+    max-width: 459px;
     height: 500px;
 }
 .pack img{
-    width: 439.5px;
+    max-width: 439.5px;
     height: 439.5px;
 }
 .boxer{
@@ -1696,7 +1803,7 @@ margin-left: 500px;
     /* gap: 30px; */
 }
 .medi img{
-    width: 459px;
+   max-width: 459px;
     height: 500px;
 }
 .cover-img{
@@ -1704,11 +1811,11 @@ margin-left: 500px;
     height: 600px;
 }
 .less img{
-    width: 459px;
+    max-width: 459px;
     height: 500px;
 }
 .crave-img img{
-    width: 459px;
+    max-width: 459px;
     height: 500px;
 }
 .grocery{
@@ -1720,13 +1827,13 @@ margin-left: 500px;
     font-weight: 700px;
     line-height: 40px;
     letter-spacing: -0.01px;
-    width: 395px;
+   max-width: 395px;
 }
 .pet h2{
-    width: 395px;
+    max-width: 395px;
 }
 .minibar h2{
-    width: 395.5px;
+   max-width: 395.5px;
     font-family: norms-bold;
     font-size: 40px;
     letter-spacing: -0.01px;
@@ -1734,16 +1841,17 @@ margin-left: 500px;
     line-height: 40px;
 }
 .from h2{
-    width: 395.5px;
+    max-width: 395.5px;
 }
 .banner-text{
-    transform: translateX(104px);
+    /* transform: translateX(104px); */
+    margin: auto;
 }
 .discover{
     margin-top: 218px;
 }
 .golo svg{
-    width: 112px;
+    max-width: 112px;
     height: 13px;
     transform: translateX(-4px);
 }
@@ -1753,13 +1861,15 @@ margin-left: 500px;
     margin-left: 18px;
 }
 .cover{
- transform: translateX(274px);
+    margin: 0auto;
+ /* transform: translateX(274px); */
  margin-top: 24px;
 }
 .saved {
+
 width: 88.73px;
 height: 32px;
- margin-left: 434px;
+ /* margin-left: 434px; */
 }
 .saved .deep {
     display: block;
@@ -1786,13 +1896,26 @@ transform: translateX(-2px);
 }
 .door{
    margin-left: 192px; 
+   /* transform: translateY(300px); */
 }
 .button{
     transform: translateX(-2px);
 }
+.paid{
+    margin-right: 0;
+}
+.girl img{
+    margin-right: 0;
+}
+.all{
+    margin-left: 0;
+}
+header{
+    width: 100%;
+    height: 650px;
 
 }
-
+}
 
 
       /* mobile responsive */
@@ -1808,16 +1931,16 @@ transform: translateX(-2px);
     grid-template-columns: 220px 200px 200px 100px;
 }
 .girl img{
-    width: 307.17px;
+    max-width: 307.17px;
     height: 500px;
 }
 .mar-img img{
-    width: 285.08px;
+    max-width: 285.08px;
     height: 500px;
     object-fit: cover;
 }
 .pack img{
-    width: 344px;
+    max-width: 344px;
     height: 344px;
 }
 .boxer{
@@ -1825,11 +1948,13 @@ transform: translateX(-2px);
     grid-template-rows: 700px 700px;
 }
 .medi img{
-    width: 342.28px;
+    max-width: 342.28px;
     height: 500px;
     object-fit: cover;
 }
 .discover{
+    justify-content: center;
+    align-items: center;
     margin-top: 214px;
 }
 .cover-img{
@@ -1837,16 +1962,17 @@ transform: translateX(-2px);
     height: 600px;
 }
 .less img{
-    width: 302px;
+    max-width: 302px;
     height: 500px;
     object-fit: cover;
 }
 .crave-img img{
-    width: 293.84px;
+    max-width: 293.84px;
     height: 500px;
     object-fit: cover;
 }
 .banner-text{
+    margin: auto;
     height: 56px;
 width: 350px;
 font-family: norms-bold;
@@ -1855,16 +1981,16 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: normal;
 line-height: 28px;
-transform: translateX(209px);
+/* transform: translateX(209px); */
 }
 .grocery{
     margin-left: 200px;
 }
 .flower h2{
-  width: 309px;  
+  max-width: 309px;  
 }
 .pet h2{
-    width: 309px;
+    max-width: 309px;
 }
 .miami{
     grid-template-columns: 110px 130px 130px 110px 20px;
@@ -1887,12 +2013,15 @@ transform: translateX(209px);
 .cool{
     display: block;
 }
-.cover{
-    transform: translateX(180px);
-}
 .saved{
-    margin-left: 340px;
+    /* margin-left: 340px; */
+    display: flex;
 }
+.fill{
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -1901,38 +2030,608 @@ transform: translateX(209px);
 
 @media (max-width:767px) {
  
-    header{
-        width: 100%;
-        height: 550px;
+    *{
+        margin: 0;
+       padding: 0;
+       /* max-width: 100%; */
     }
+    .done{
+        margin: 0;
+    }
+    header{
+
+        height: 550px;
+        transform: none;
+        margin-bottom: 20px;
+    }
+.crave{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+.crave-img img{
+    max-width: 727px;
+    height: 180px;
+}
+.crave-img{
+    margin-left: 0;
+}
+.full-pink{
+    display: block;
+    width: 100%;
+}
+.less img{
+    max-width: 727px;
+    height: 180px;
+    margin-top: 30px;
+}
+.words{
+    margin: 80px;
+}
+.cover-img{
+    width: 100%;
+    height: 350px;
+}
+.grocery{
+    margin-left: 0;
+}
+.noor{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.medi img{
+    max-width: 727px;
+    height: 180px;
+}
+.ezra{
+    margin-left: 0;
+    margin-top: 20px;
+}
+.gift span{
+    max-width: 300px;
+}
+.boxer{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 767px;
+    height: 100%;
+    width: 100%;
+    justify-content:left;
+    
+    gap: 0;
+}
+.pack img{
+   max-width: 650.3px;
+    height: 180px;
+    object-fit: cover;
+    
+}
+.bussi span{
+    max-width: 300px;
+}
+.mar-img img{
+    max-width: 727px;
+    height: 180px;
+    
+}
+.mar{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+    padding: 0;
+}
+.paid{
+    margin-top: 0;
+    transform: none;
+}
+.sales{
+    display: inline-block;
+    width: 100%;
+}
+.girl img{
+    max-width: 727px;
+    height: 180px;
+    /* margin-right: 0; */
+    transform: none;
+    margin: 0;
+    /* object-fit: fill; */
+}
+.mar-img img{
+    max-width: 727px;
+    transform: none;
+}
+.paid button{
+    margin-top: 0;
+}
+.top{
+    transform: none;
+}
+.hood{
+    margin-top: 0;
+    width: 100%;
+}
+.cool{
+    display: block;
+}
+.all{
+    display: block;
+}
+.code{
+    display: block;
+}
+.type img{
+    max-width: 88px;
+    height: 88px;
+}
+.type1 img{
+   max-width: 88px;
+    height: 88px;
+}
+.type2 img{
+   max-width: 88px;
+    height: 88px;
+}
+.scooter{
+    padding: 0;
+    margin-left: 0;
+}
+.paid{
+    margin-right: 0;
+}
+.button .siva{
+    display: block;
+    width: 66.36px;
+    height: 32px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(25, 25, 25);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+background-color: #ffffff;
+}
+ .button .dev{
+    display: block;
+    width: 100.81px;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+font-family: norms-medium;
+font-size: 16px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 22px;
+background-color: #eb1700;
+}
+.button .in{
+    display: none;
+}
+.button .up{
+    display: none;
+}
+.krish{
+    max-width: 767px;
+}
+.scooter{
+    padding-left: 0;
+}
+.type1{
+    transform: none;
+}
+.krish{
+    width: 100%;
+    height: 1000px;
+    /* margin-bottom: -100px; */
+
+}
+.from span{
+    max-width: 470px;
+}
+.from h2{
+    width: 272px;
+}
+.dasher{
+    margin-top: 40px;
+}
+
+.fill{
+    max-width: 360px;
+    height: 148px;
+    border: 1px solid #e7e7e7;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.google{
+    display: block;
+}
+.google button{
+    display: block;
+}
+.svg{
+    max-width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    border: 1px solid rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+    margin-right: 8px;
+    padding: 8px;
+}
+.google p{
+    max-width: 177px;
+    box-sizing: border-box;
+color: rgb(25, 25, 25);
+display: block;
+font-family: norms-medium;
+font-size: 18px;
+font-variant-ligatures: no-common-ligatures;
+font-weight:700;
+height: 22px;
+letter-spacing: -0.511197px;
+line-height: 22px;
+}
+.google span{
+max-width: 177px;
+box-sizing: border-box;
+color: rgb(118, 118, 118);
+display: block;
+font-family: norms-medium;
+font-size: 14px;
+/* font-variant-ligatures no-common-ligatures */
+font-weight: 500;
+height: 22px;
+letter-spacing: normal;
+line-height: 22px;
+
+}
+.oop button{
+    max-width: 124.217px;
+    height: 32px;
+    border-radius: 24px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: block;
+/* font-family: norm-regular; */
+font-size: 14px;
+font-variant-ligatures: no-common-ligatures;
+font-weight: 700;
+letter-spacing: normal;
+line-height: 16px;
+background-color: #eb1700;
+border: none;
+padding-bottom: 4px;
+}
+.oop svg{
+ transform: translateY(4px);
+}
+.form h2{
+    width: 313px;
+}
+.from{
+    margin-top: 0;
+}
+.flower{
+    margin: 0;
+}
+.minibar{
+    margin-top: 0;
+}
+.pet{
+    margin-top: 0;
+}
+.grocery{
+    transform: translateY(90px);
+}
+.cover{
+    width: 324px;
+    height: 48px;
+    /* margin-left: 40px; */
+}
+.discover{
+    justify-content: center;
+    align-items: center;
+    margin-top: 166px;
+}
+.door{
+    transform: translateY(153px);
+    margin-left: 180px;
+}
+.fill{
+    margin: auto;
+    /* transform: translateX(200px); */
+    display: flex;
+    justify-content: center;
+    
+    padding-left: 0;
+    
+}
+.svg{
+    margin-left: -47px;
+}
+.google span{
+    margin-top: 6px;
+}
+.oop{
+    margin-top: 8px;
+}
+.dasher{
+    margin-top: 67px;
+}
+.fan{
+    transform: none;
+    margin-left: 27px;
+}
+.type{
+    margin: 0;
+    transform: none;
+    /* margin-left: 102px; */
+}
+.scooter{
+    margin-left: 52px;
+}
+.type img{
+transform: translateX(-30px);
+}
+.non h2{
+    transform: translateX(10px);
+}
+.type1 img{
+    transform: translateX(40px);
+}
+ .saved {
+    display: flex;
+    max-width: 81.06px;
+    height: 32px;
+}
+.saved .feed{
+    display: flex;
+}
+.saved .deep{
+    display: none;
+}
+.feed p{
+    box-sizing: border-box;
+color: rgb(36, 36, 36);
+cursor: pointer;
+display: block;
+font-family: norm-regular;
+font-size: 14px;
+font-variant-ligatures: normal;
+font-weight: 700;
+letter-spacing: -0.01px;
+line-height: 20px
+}
+.saved svg{
+    width: 16px;
+    height: 16px;
+    padding: 0;
+}
+.fill{
+    display: flex;
+}
+}
 
 
+@media (max-width:412px){
+*{
+    margin: 0;
+    padding: 0
+}
+.crave-img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.crave-img img{
+    max-width: 372px;
+
+}
+.less img{
+    max-width: 372px;
+}
+.medi img{
+    max-width: 327px;
+}
+.pack img{
+    max-width: 330px;
+}
+.pack{
+    margin-left: 50px;
+}
 
 
+.mar-img img{
+    max-width: 372px;
+
+}
+.girl img{
+    max-width: 372px;
+}
+.chain{
+gap: 50px;
+}
+.miami{
+    grid-template-columns: 130px 100px 90px 90px 50px;
+}
+.bahu{
+    grid-template-columns: 100px 100px 100px 50px;
+}
+.from span{
+    max-width: 330px;
+}
+.minibar span{
+ max-width: 320px;
+}
+.writing p{
+    max-width: 372px;
+}
+.words span{
+    max-width: 372px;
+}
+.words{
+    margin-left: 0;
+}
+.button{
+    transform: translateX(-130px);
+    margin-right: 0;
+    gap: 0;
+    margin: 0;
+}
+.non span{
+    margin-left: 0;
+}
+.paid span{
+    max-width: 330px;
+}
+.top span{
+   max-width: 330px;
+}
+
+.grocery span{
+    max-width: 344px;
+}
+.grocery p{
+    max-width: 412px;
+}
+.fill{
+    margin-left: 50px;
+}
+.grocery h2{
+    font-size: 28px;
+}
+.grocery{
+    transform: none;
+}
+.ezra h1{
+    font-size: 24px;
+}
+.pet h2{
+    font-size: 24px;
+}
+.from h2{
+    font-size: 24px;
+}
+.shoe span{
+    margin-left: 0;
+}
+.navbar{
+    max-width: 412px;
+/* overflow-x: hidden; */
+}
 
 
+}
 
+@media(min-width:413px) and (max-width:690px){
+*{
+margin: 0;
+padding: 0;
+transform: none;
+}
+.header{
+width: 100%;
+}
+.button{
+    transform: translateX(-130px);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bahu{
+    display: block;
+}
+.krish{
+    height: 1800px;
+}
+.chain{
+    gap: 100px;
 }
 
 
 
 
+}
+@media(max-width:320px){
 
+*{
+    margin: 0;
+    padding: 0;
+}
+.door{
+margin-left: 60px;
+
+}
+.banner-text{
+    width: 300px;
+}
+.cover{
+    width: 304px;
+}
+.fill{
+    margin-left: 12px;
+    width: 280px;
+
+}
+.google{
+    margin-left: 30px;
+}
+.svg{
+    margin: 0;
+    margin-left: 5px;
+}
+
+
+.oop button{
+    margin-top: 30px;
+}
+.type img{
+    margin: 0;
+    padding: 0;
+    transform: none;
+}
+
+
+
+.bahu{
+    display: block;
+}
+
+.fanh2{
+    width: 200px;
+}
+.fan span{
+    width: 200px;
+}
+.non span{
+    width: 200px;
+}
+.shoe span{
+    width: 200px;
+}
+.crave h2{
+width: 200px;
+}
+.start1 h3{
+    width: 120px;
+}
+.hood{
+    width: 100%;
+}
+.type img{
+transform: none;
+}
+
+}
