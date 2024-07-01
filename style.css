@@ -13,9 +13,23 @@
     src: url(font/TTNorms-Medium\ \(1\).woff2);
 }
 @font-face {
-    font-family: norm-regular;
+    font-family: norms-regular;
     src: url(font/TTNorms-Regular.woff2);
 }
+@font-face {
+    font-family: roboto;
+    src: url(font/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(font/KFOlCnqEu92Fr1MmEU9fBBc4\(1\).woff2);
+}
+@font-face {
+    font-family: norms-medium2;
+    src: url(font/TTNorms-Medium\(2\).woff2);
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -38,7 +52,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-left: 172px;
+    transform: translateX(3px);
+    margin-left: 9%;
      
 }
 .logo {
@@ -60,7 +75,7 @@ header{
     background: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     /* object-fit: cover; */
     height: 650px;
     width: 100%;
@@ -129,10 +144,7 @@ transform: translateX(-2px);
     /* width: 100%; */
     text-align: center;
     justify-content: center;
-    margin-top: 217px;
-    /* position: fixed; */
-
-    
+    margin-top: 11.8%;
 }
 
 
@@ -174,28 +186,20 @@ line-height: 40px;
     align-items: center;
 }
 .cover input{
-    justify-content: center;
-    align-items: center;
     border: none;
-    margin-left: -63px;
     font-family: norms-medium;
 font-size: 16px;
-font-variant-ligatures: normal;
 font-weight: 500;
 letter-spacing: normal;
-line-height: 22px;
- transform: translateY(-3px);
- 
-
+/* line-height: 22px; */
+margin-left: -62px;
+transform: translateY(-2px)
 }
 
 .saved{
     margin: auto;
     display: block;
     justify-content: center;
-    
-    /* align-items: center; */
-    /* display: flex; */
     background-color: #ffffff;
     max-width: 203.333px;
     height: 32px;
@@ -227,18 +231,9 @@ padding-top: 6px;
     margin-top: 8px;
     margin-right: 4px;
 }
-    
-
 .form{
     border: none;
-    outline: none;
-    
-}
-.cover #forms {
-    display: block;
-    box-sizing: border-box;
-    border: none;
-    
+    outline: none; 
 }
 .dasher{
     box-sizing: border-box;
@@ -246,15 +241,13 @@ padding-top: 6px;
     justify-content: center;
     gap: 80px;
     margin-top: 124px;
-    transform: translateX(0px);
-
+    margin-left: -48px;
 }
 .scooter{
     box-sizing: border-box;
     display: block;
     text-align: center;
-margin-left: -40px;
-    
+ 
 }
 .scooter h2{
     box-sizing: border-box;
@@ -267,10 +260,9 @@ font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
 margin-top: -4px;
-margin-left: -4px;
+/* margin-left: -4px; */
 }
 .fan span{
-    width: 250px;
     display: block;
     box-sizing: border-box;
 color: rgb(25, 25, 25);
@@ -284,7 +276,8 @@ line-height: 24px;
 text-align: center;
 margin-top: 8px;
 transform: translateX(-29px);
-/* margin-left: -2px; */
+max-width: 250px;
+
 }
 .arrow h3{
     box-sizing: border-box;
@@ -306,6 +299,9 @@ margin-top: 13px;
     
 }
 .non h2{
+   margin-left: 4px;
+}
+.non h2{
     box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
@@ -321,18 +317,16 @@ transform: translateX(26px);
 margin-top: -4px;
 }
 .house span{
-    width: 200px;
+    max-width: 200px;
     display: block;
 }
 .mobile{
     display: block;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    transform: translateX(10px);
 
 }
-.mobile h2{
+.shoe h2{
    box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
@@ -342,17 +336,15 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px; 
-width: 200px;
-margin-left: 26px;
+max-width: 200px;
+margin-left: 40px;
 margin-top: -4px;
 }
 .mobile span{
-width: 200px;
+max-width: 200px;
 display: block;
 
 }
-
-
 .start2 h3{
 box-sizing: border-box;
 color: rgb(235, 23, 0);
@@ -368,12 +360,14 @@ margin-top: 10px;
 
 }
 .arrow svg{
-    fill: red;
     color: red;
+    max-width: 16px;
 }
 .arrow{
     display: flex;
     margin-left: 30px;
+    text-align: center;
+    /* width: 50%; */
 }
 .arrow h3{
     box-sizing: border-box;
@@ -389,37 +383,35 @@ line-height: 22px;
 }
 .type img{
     height: 154px;
-    width: 154px;
+    max-width: 154px;
     box-sizing: border-box;
-    transform: translateX(-22px);
-}
-.type1{
-    margin-left: -4px;
+    transform: translateX(-18px); 
 }
 .type2 img{
-     height: 154px;
-    width: 154px;
+    height: 154px;
+    max-width: 154px;
     box-sizing: border-box;
-    margin-left: -3px;
+    margin-left: 24px;
 }
 .start{
     display: flex;
     width: 100%;
-    
 }
 .start1 svg{
     color: red;
-    fill:#eb1700
+    max-width: 16px;
 }
 .start2{
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 .start1{
     display: flex;
+    align-items: center;
 }
 .non span{
-    width: 270px;
+    max-width: 270px;
 box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
@@ -457,7 +449,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 24px;
-width: 270px;
+max-width: 270px;
 }
 .crave{
     width: 100%;
@@ -478,8 +470,8 @@ width: 270px;
     margin-left: -10px;
 }
 .crave-img img{
-    max-width: 695.033px;
-    height: 500px;
+    width: 100%;
+    max-height: 500px;
 }
 .writing h2{
     box-sizing: border-box;
@@ -705,12 +697,7 @@ text-align: center;
     display: flex;
     /* width: 100%; */
     justify-content: center;
-    /* margin: 0; */
-    /* padding: 0; */
-    /* margin-left: 160px; */
-    /* width: 100px; */
-    /* transform: translateX(20px); */
-
+  
 }
 .ezra{
     display: block;
@@ -796,22 +783,24 @@ max-width: 450px;
 text-align: center;
 }
 .boxer{
-    padding-top: 20px;
+    padding-top: 100px;
     justify-content: center;
     display: grid;
-    grid-template-columns: 560px 560px;
-    grid-template-rows: 800px 800px;
-    gap: 29px;
-    height: 1654px;
+    grid-template-columns: repeat(2,552px);
+    /* grid-template-rows: 800px 800px; */
+    gap: 40px;
+    max-width: 100%;
+
     background-color: #fef1ee;
 }
 .box{
     display: block;
+    width: 90%;
 
 }
 .pack img{
-max-width: 552px;
-height: 552px;
+width: 100%;
+max-height: 552px;
 object-fit: cover;
 }
 .from{
@@ -879,6 +868,7 @@ transform: translateX(194px);
     display: block;
     box-sizing: border-box;
     margin-top: 29px;
+    width: 100%;
 
 }
 .flower h2{
@@ -891,9 +881,9 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-max-width: 500px;
+width: 90%;
 text-align: center;
-transform: translateX(32px);
+/* transform: translateX(32px); */
 }
 .flower span{
 box-sizing: border-box;
@@ -907,6 +897,7 @@ letter-spacing: -0.01px;
 line-height: 22px;
 text-align: center;
 margin-top: 20px;
+width: 80%
 }
 .flower button{
 width: 124.017px;
@@ -1002,7 +993,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-max-width: 500px;
+width: 80%;
 text-align: center;
 margin-left: 30px;
 }
@@ -1018,6 +1009,7 @@ letter-spacing: -0.01px;
 line-height: 22px;
 text-align: center;
 margin-top: 22px;
+width: 80%;
 }
 .pet button{
 width: 149.1px;
@@ -1051,7 +1043,7 @@ transform: translateX(207px);
 .bussi h2{
     display: block;
     /* justify-content: center; */
-    width: 390px;
+    max-width: 390px;
     box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
@@ -1139,7 +1131,7 @@ margin-top: 30px;
     
 }
 .girl img{
-max-width: 724px;
+width: 90%;
 height: 500px;
 margin-right: 60px;
 object-fit: cover;
@@ -1220,9 +1212,12 @@ margin-top: -15px;
 
 }
 .chain{
+    width: 60%;
     display: flex;
     justify-content: center;
-    gap: 300px;
+    margin: auto;
+    justify-content: space-around;
+    box-sizing: border-box;
     margin-top: 30px;
 }
 .chain p{
@@ -1241,13 +1236,13 @@ border-bottom-style:groove;
 }
 .miami{
     display: grid;
-    grid-template-columns: 150px 200px 200px 200px 200px;
+    grid-template-columns: repeat(5,1fr);
     justify-content: center;
 }
 .miami ul{
     list-style: none;
     text-decoration: none;
-    /* margin-top: 30px; */
+    display: grid;
 }
 .miami ul li{
 margin-top: 20px;
@@ -1256,7 +1251,7 @@ transform: translateX(-100px);
 box-sizing: border-box;
 color: rgb(25, 25, 25);
 cursor: pointer;
-display: block;
+
 font-family: norms-medium;
 font-size: 16px;
 font-variant-ligatures: no-common-ligatures;
@@ -1274,7 +1269,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 22px;
-text-align: center;
+/* text-align: center; */
 }
 .queen{
     text-align: center;
@@ -1298,12 +1293,11 @@ line-height: 22px
     /* padding-left: 20px; */
 }
 .bahu {
-    margin-left: 340px;
+
+    justify-content: center;
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 260px 260px 220px 90px ;
-    
-    
+    grid-template-columns: repeat(4,280px);  
 }
 .done{
     margin: -20px;
@@ -1322,11 +1316,15 @@ line-height: 22px
     color: #fef1ee;
     
 }
+.pop{
+    display: flex;
+    margin: 0 350px;
+}
 
 .pop p{
-    margin-left: 340px;
+    display: flex;
+    
     justify-content: center;
-    box-sizing: border-box;
 color: rgb(255, 255, 255);
 display: block;
 font-family: norms-medium;
@@ -1356,7 +1354,7 @@ letter-spacing: normal;
 .code {
     display: flex;
     gap: 80px;
-    padding-left: 336px;
+    padding-left: 20%;
     padding-top: 48px;
 }
 .cool{
@@ -1364,7 +1362,7 @@ letter-spacing: normal;
 }
 .all{
     display: flex;
-    margin-left: 290px;
+    margin-left: 18%;
 }
 .all ul{
     list-style: none;
@@ -1379,7 +1377,7 @@ letter-spacing: normal;
     box-sizing: border-box;
 color: rgb(255, 255, 255);
 display: block;
-font-family: norms-medium;
+font-family: norms-bold;
 font-size: 16px;
 font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
@@ -1416,20 +1414,19 @@ line-height: 20px;
 .app{
     display: block;
 height: 100px;
-float: right;
-/* transform: translateX(388px); */
-    
+align-items: end;
+padding-left: 23%; 
 
 }
 .final svg{
-    width: 144px;
+    max-width: 144px;
     height: 50px;
     border-radius: 12px;
     background-color: #3a3a3a;
     color: white;
 }
 .play svg{
-    width: 144px;
+    max-width: 144px;
     height: 50px;
     
     border-radius: 12px;
@@ -1451,13 +1448,81 @@ float: right;
 .saved{
     display: flex;
 }
+.dham{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    align-items: center;
+    width: 100%;
+}
+.rolly{
+    display: flex;
+     
+}
+.rolly span{ 
+    margin-left: 20px;
+    box-sizing: border-box;
+color: rgb(196, 196, 196);
+cursor: pointer;
+display: block;
+font-family: roboto;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: normal;
+line-height: 18px;
+height: 18px;
+}
+.rolly svg{
+    fill: #ffffff;
+}
+.mid-end select{
+    max-width: 94.001px;
+    color: rgb(25, 25, 25);
+    font-family: roboto-medium;
+font-size: 14px;
+font-variant-ligatures: normal;
+font-weight: 500;
+letter-spacing: normal;
+line-height: 20px;
+border-radius: none;
+border: none;
+text-align: center;
+z-index: 2;
+margin-left: 37px;
+padding-top: 4px;
+transform: translateY(2px);
+}
+.mid-end svg{
+    transform: translateX(10px);
+    text-align: center;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 1;
+}
+.mid-end{
+    /* position: relative; */
+    max-width: 150px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    /* margin-left: 159px; */
 
+}
+.rightmost {
+    display: flex;
+    transform: translateX(100px);
+}
+.rightmost svg{
+    margin-left: 10px;
+}
 
-
-
-
-
-
+.start2 svg{
+    color: #eb1700;
+    max-width: 16px;
+}
+.type1 img{
+    margin-left: 4px;
+}
 
        /* laptop responsive */
        @media  (max-width: 1183px){ 
@@ -1471,10 +1536,12 @@ box-sizing: border-box;
 
 .logo svg{
   height: 24px;
-  width: 42px;
+  max-width: 42px;
     
 }
-
+.dasher{
+    text-align: center;
+}
 .discover{
     margin-top: 222px;
 }
@@ -1484,15 +1551,16 @@ box-sizing: border-box;
 }
 .golo svg{
 height: 18px;
-width: 155px;
+max-width: 155px;
 
 }
 .pop p{
     margin: 0;
 }
 .door{
-margin-top:8px;
-/* margin-left:192px; */
+justify-content: center;
+align-items: center;
+
 }
 .banner-text{
     margin: auto;
@@ -1505,23 +1573,13 @@ font-size: 40px;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 40px;
-/* transform: translateX(217px); */
 }
 header{
-    
-    /* background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_mobile.png"); */
-    /* height: 550px; */
     height: 650px;
-
-
-    
 }
-
 .cover{
     max-width: 408px;
     height: 56px;
-    /* margin: 0; */
-    /* transform: translateX(387px); */
     margin-top: 23px;
 }
 .row{
@@ -1549,29 +1607,19 @@ transform: none;
 /* margin-left: 490px; */
 border-bottom-color: rgb(25, 25, 25);
 }
-.button{
-    transform: none;
-    margin-right: 21px;
-    /* padding-top: 10px; */
-}
 .fan{
     margin-left: 50px;
 }
 .dasher{
     display: block;
-    width: 100%;
     margin-top: -25px;
 }
 .scooter{
     display: flex;
     justify-content: center;
-    /* margin: 0; */
-    /* width: 100%; */
-    /* padding-left: 115px; */
-
+margin-left: 10%;
 }
 .type img{
-    max-width: 124px;
     height: 124px;
     margin-top: -8px;
     transform: none;
@@ -1591,8 +1639,6 @@ border-bottom-color: rgb(25, 25, 25);
 }
 .fan span{
     max-width: 400px;
-
-margin-left: 8x;
 }
 
 .house{
@@ -1608,6 +1654,7 @@ margin-left: 8x;
 .arrow svg{
     width: 16px;
     height: 16px;
+
 }
 .fan span{
 box-sizing: border-box;
@@ -1618,19 +1665,20 @@ font-size: 18px;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 24px;
- max-width: 250px;
 text-align: left;
-transform: translateX(-26px);
 margin-top: 0;
+transform: none;
 }
 .fan h2{
     max-width: 250px;
 text-align: left;
-transform: translateX(-22px);
+/* transform: translateX(-22px); */
 margin-top: -9px;
 }
 .arrow {
     display: flex;
+    width: 100%;
+    margin-left: 0;
 }
 .start2 svg{
 color:#eb1700;
@@ -1648,12 +1696,8 @@ font-variant-ligatures: normal;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 20px;
-transform: translateX(-55px);
 }
-.scooter{
-    text-align: left;
-    /* transform: translateX(-4px); */
-}
+
 .house{
     text-align: left;
     
@@ -1693,6 +1737,7 @@ margin-left: 35px;
 }
 .start2 h3{
     margin-left: 35px;
+    width: 40%;
 }
 .start2 {
     display: flex;
@@ -1707,42 +1752,44 @@ margin-left: 35px;
 margin-left: 500px;
 }
 .bahu{
-    grid-template-columns: 250px 250px 220px 90px;
+    grid-template-columns: repeat(4,1fr);
 }
 .crave-img img{
-    max-width: 683px;
+    width: 80%;
     height: 500px;
 }
 .crave{
+    width: 100%;
     justify-content:left;
 }
 .writing{
     margin-left: 0;
 }
 .crave-img{
+    width: 100%;
     margin-left: 0;
-    max-width: 683px;
 }
 .words{
     margin-left: 10px;
 }
 .bahu{
+    width: 100%;
     margin-left: 0;
 }
 .girl img{
     margin-right: 0;
-    max-width: 683px;
+    width: 90%;
     height: 500px;
 }
 .mar-img img{
-    max-width: 683px;
+    width: 90%;
     transform: none;
 }
 .paid{
     margin-right: 0;
 }
 .less img{
-    max-width: 683px;
+    width: 100%;
 }
 .words{
     margin-left: 0;
@@ -1755,17 +1802,35 @@ margin-left: 500px;
 
 }
 .pack img{
-    max-width: 540px;
-    height: 541px;
+    width: 93%;
+    height: 100%;
+    padding: 10px;
 }
 .boxer{
-    grid-template-columns: 540px 540px;
-    gap: 10px;
+    grid-template-columns: repeat(2,502px);
+    gap: 20px;
 }
-.pet span{
-max-width: ;
+.app{
+    padding-left: 10px;
 }
-
+.rolly{
+    transform: none;
+}
+.mid-end{
+    margin-left: 0px;
+}
+.rightmost{
+    transform: translateX(20px);
+}
+.krish{
+    width: 100%;
+}
+.boxer{
+    width: 100%;
+}
+.done{
+    width: 30%;
+}
 
 
 
@@ -1776,18 +1841,18 @@ max-width: ;
 
 /* Tab responsive */
 
-@media (max-width:959px){
+@media (max-width:960px){
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .bahu{
-    grid-template-columns: 270px 200px 270px 70px;
+    grid-template-columns: 4 1fr;
   margin-left: 0;
 }
 .girl img{
-    max-width: 459px;
+    width: 80%;
     height: 500px;
 }
 .mar-img img{
@@ -1795,15 +1860,15 @@ max-width: ;
     height: 500px;
 }
 .pack img{
-    max-width: 439.5px;
-    height: 439.5px;
+    width: 100%;
+    height: 100%;
 }
 .boxer{
-    grid-template-columns: 440px 440px;
+    grid-template-columns:repeat(2,364px);
     /* gap: 30px; */
 }
 .medi img{
-   max-width: 459px;
+   width: 80%;
     height: 500px;
 }
 .cover-img{
@@ -1815,7 +1880,7 @@ max-width: ;
     height: 500px;
 }
 .crave-img img{
-    max-width: 459px;
+    width: 80%;
     height: 500px;
 }
 .grocery{
@@ -1827,10 +1892,10 @@ max-width: ;
     font-weight: 700px;
     line-height: 40px;
     letter-spacing: -0.01px;
-   max-width: 395px;
+   max-width: 80%;
 }
 .pet h2{
-    max-width: 395px;
+    margin-left: 0;
 }
 .minibar h2{
    max-width: 395.5px;
@@ -1896,10 +1961,6 @@ transform: translateX(-2px);
 }
 .door{
    margin-left: 192px; 
-   /* transform: translateY(300px); */
-}
-.button{
-    transform: translateX(-2px);
 }
 .paid{
     margin-right: 0;
@@ -1915,6 +1976,15 @@ header{
     height: 650px;
 
 }
+.rolly span{
+    margin-left: 0;
+}
+.dham{
+    width: 100%;
+}
+.rolly{
+    width: 60%;
+}
 }
 
 
@@ -1928,10 +1998,10 @@ header{
     }
 .bahu{
     margin-left: 0;
-    grid-template-columns: 220px 200px 200px 100px;
+    /* grid-template-columns: repeat(4 300px); */
 }
 .girl img{
-    max-width: 307.17px;
+    max-width: 90%;
     height: 500px;
 }
 .mar-img img{
@@ -1948,14 +2018,9 @@ header{
     grid-template-rows: 700px 700px;
 }
 .medi img{
-    max-width: 342.28px;
+    width: 90%;
     height: 500px;
     object-fit: cover;
-}
-.discover{
-    justify-content: center;
-    align-items: center;
-    margin-top: 214px;
 }
 .cover-img{
     width: 100%;
@@ -1967,14 +2032,14 @@ header{
     object-fit: cover;
 }
 .crave-img img{
-    max-width: 293.84px;
+    width: 80%;
     height: 500px;
     object-fit: cover;
 }
 .banner-text{
     margin: auto;
     height: 56px;
-width: 350px;
+ max-width: 350px;
 font-family: norms-bold;
 font-size: 22px;
 font-variant-ligatures: no-common-ligatures;
@@ -1991,12 +2056,6 @@ line-height: 28px;
 }
 .pet h2{
     max-width: 309px;
-}
-.miami{
-    grid-template-columns: 110px 130px 130px 110px 20px;
-}
-.chain{
-    gap: 200px;
 }
 .cool{
     display: flex;
@@ -2021,25 +2080,26 @@ line-height: 28px;
     align-items: center;
     justify-content: center;
 }
-
-
-
+.rolly{
+    width: 60%;
+}
+.type1{
+    margin-left: 0;
+}
+.pop{
+    margin-left: 0;
+}
 
 
 }
 
 @media (max-width:767px) {
  
-    *{
-        margin: 0;
-       padding: 0;
-       /* max-width: 100%; */
-    }
     .done{
         margin: 0;
     }
     header{
-
+width: 100%;
         height: 550px;
         transform: none;
         margin-bottom: 20px;
@@ -2048,9 +2108,10 @@ line-height: 28px;
     /* width: 100%; */
     display: flex;
     flex-direction: column-reverse;
+    margin-top: 100px;
 }
 .crave-img img{
-    max-width: 727px;
+    width: 100%;
     height: 180px;
 }
 .crave-img{
@@ -2063,7 +2124,6 @@ line-height: 28px;
 .less img{
     max-width: 727px;
     height: 180px;
-    margin-top: 30px;
 }
 .words{
     margin: 80px;
@@ -2081,7 +2141,7 @@ line-height: 28px;
     flex-direction: column-reverse;
 }
 .medi img{
-    max-width: 727px;
+  width: 100%;
     height: 180px;
 }
 .ezra{
@@ -2095,11 +2155,9 @@ line-height: 28px;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
-    width: 767px;
     height: 100%;
     width: 100%;
     justify-content:left;
-    
     gap: 0;
 }
 .pack img{
@@ -2131,7 +2189,7 @@ line-height: 28px;
     width: 100%;
 }
 .girl img{
-    max-width: 727px;
+    width: 100%;
     height: 180px;
     /* margin-right: 0; */
     transform: none;
@@ -2168,6 +2226,7 @@ line-height: 28px;
 .type1 img{
    max-width: 88px;
     height: 88px;
+    margin-left: 0;
 }
 .type2 img{
    max-width: 88px;
@@ -2228,10 +2287,11 @@ background-color: #eb1700;
 }
 .type1{
     transform: none;
+    margin-left: 0;
 }
 .krish{
     width: 100%;
-    height: 1000px;
+    height: 100%;
     /* margin-bottom: -100px; */
 
 }
@@ -2239,7 +2299,7 @@ background-color: #eb1700;
     max-width: 470px;
 }
 .from h2{
-    width: 272px;
+    max-width: 272px;
 }
 .dasher{
     margin-top: 40px;
@@ -2299,7 +2359,7 @@ line-height: 22px;
 
 }
 .oop button{
-    max-width: 124.217px;
+    width: 124.217px;
     height: 32px;
     border-radius: 24px;
 box-sizing: border-box;
@@ -2320,7 +2380,7 @@ padding-bottom: 4px;
  transform: translateY(4px);
 }
 .form h2{
-    width: 313px;
+    max-width: 313px;
 }
 .from{
     margin-top: 0;
@@ -2338,18 +2398,26 @@ padding-bottom: 4px;
     transform: translateY(90px);
 }
 .cover{
-    width: 324px;
+    max-width: 324px;
     height: 48px;
     /* margin-left: 40px; */
 }
-.discover{
-    justify-content: center;
-    align-items: center;
-    margin-top: 166px;
+header{
+    position: relative;
 }
 .door{
-    transform: translateY(153px);
-    margin-left: 180px;
+    position: absolute;
+    top: 175px;
+    right: 0;
+    margin-left: 0;
+    left: -30px;
+}
+.navbar{
+    text-align: right;
+}
+.button{
+    position: absolute;
+    right: 0;
 }
 .fill{
     margin: auto;
@@ -2381,17 +2449,11 @@ padding-bottom: 4px;
     transform: none;
     /* margin-left: 102px; */
 }
-.scooter{
-    margin-left: 52px;
-}
 .type img{
 transform: translateX(-30px);
 }
 .non h2{
     transform: translateX(10px);
-}
-.type1 img{
-    transform: translateX(40px);
 }
  .saved {
     display: flex;
@@ -2417,221 +2479,33 @@ letter-spacing: -0.01px;
 line-height: 20px
 }
 .saved svg{
-    width: 16px;
+    max-width: 16px;
     height: 16px;
     padding: 0;
 }
 .fill{
     display: flex;
 }
-}
-
-
-@media (max-width:412px){
-*{
-    margin: 0;
-    padding: 0
-}
-.crave-img{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-.crave-img img{
-    max-width: 372px;
-
-}
-.less img{
-    max-width: 372px;
-}
-.medi img{
-    max-width: 327px;
-}
-.pack img{
-    max-width: 330px;
-}
-.pack{
-    margin-left: 50px;
-}
-
-
-.mar-img img{
-    max-width: 372px;
-
-}
-.girl img{
-    max-width: 372px;
-}
-.chain{
-gap: 50px;
-}
-.miami{
-    grid-template-columns: 130px 100px 90px 90px 50px;
-}
-.bahu{
-    grid-template-columns: 100px 100px 100px 50px;
-}
-.from span{
-    max-width: 330px;
-}
-.minibar span{
- max-width: 320px;
-}
-.writing p{
-    max-width: 372px;
-}
-.words span{
-    max-width: 372px;
-}
-.words{
-    margin-left: 0;
-}
-.button{
-    transform: translateX(-130px);
-    margin-right: 0;
-    gap: 0;
-    margin: 0;
-}
-.non span{
-    margin-left: 0;
-}
-.paid span{
-    max-width: 330px;
-}
-.top span{
-   max-width: 330px;
-}
-
-.grocery span{
-    max-width: 344px;
-}
-.grocery p{
-    max-width: 412px;
-}
-.fill{
-    margin-left: 50px;
-}
-.grocery h2{
-    font-size: 28px;
-}
-.grocery{
-    transform: none;
-}
-.ezra h1{
-    font-size: 24px;
-}
-.pet h2{
-    font-size: 24px;
-}
-.from h2{
-    font-size: 24px;
-}
-.shoe span{
-    margin-left: 0;
-}
-.navbar{
-    max-width: 412px;
-/* overflow-x: hidden; */
-}
-
-
-}
-
-@media(min-width:413px) and (max-width:690px){
-*{
-margin: 0;
-padding: 0;
-transform: none;
-}
-.header{
-width: 100%;
-}
-.button{
-    transform: translateX(-130px);
-}
-
 .bahu{
     display: block;
+    justify-content: center; 
 }
-.krish{
-    height: 1800px;
+.dham{
+    display: flex;
+    flex-direction: column-reverse;
 }
-.chain{
-    gap: 100px;
-}
-
-
-
-
-}
-@media(max-width:320px){
-
-*{
-    margin: 0;
-    padding: 0;
+.rolly{
+    width: 100%;
 }
 .door{
-margin-left: 60px;
-
-}
-.banner-text{
-    width: 300px;
-}
-.cover{
-    width: 304px;
-}
-.fill{
-    margin-left: 12px;
-    width: 280px;
-
-}
-.google{
-    margin-left: 30px;
-}
-.svg{
-    margin: 0;
-    margin-left: 5px;
-}
-
-
-.oop button{
-    margin-top: 30px;
-}
-.type img{
-    margin: 0;
-    padding: 0;
     transform: none;
 }
-
-
-
-.bahu{
-    display: block;
+.non{
+    margin-left: 0;
+}
+.start h3{
+    
+}
 }
 
-.fanh2{
-    width: 200px;
-}
-.fan span{
-    width: 200px;
-}
-.non span{
-    width: 200px;
-}
-.shoe span{
-    width: 200px;
-}
-.crave h2{
-width: 200px;
-}
-.start1 h3{
-    width: 120px;
-}
-.hood{
-    width: 100%;
-}
-.type img{
-transform: none;
-}
 
-}
