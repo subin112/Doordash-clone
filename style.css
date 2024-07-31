@@ -279,12 +279,12 @@ transform: translateX(-29px);
 max-width: 250px;
 
 }
-.arrow h3{
+.arrow span{
     box-sizing: border-box;
 color: rgb(235, 23, 0);
 cursor: pointer;
-display: block;
-font-family: norms-medium;
+display: flex;
+font-family: norms-bold;
 font-size: 18px;
 /* font-variant-ligatures: normal; */
 font-weight: 700;
@@ -345,7 +345,7 @@ max-width: 200px;
 display: block;
 
 }
-.start2 h3{
+.start2 .span{
 box-sizing: border-box;
 color: rgb(235, 23, 0);
 cursor: pointer;
@@ -361,26 +361,20 @@ margin-top: 10px;
 }
 .arrow svg{
     color: red;
+    position: absolute;
+    top: 10px;
+    right: 30%;
     max-width: 16px;
 }
 .arrow{
+    justify-content: center;
     display: flex;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     text-align: center;
+    position: relative;
     /* width: 50%; */
 }
-.arrow h3{
-    box-sizing: border-box;
-color: rgb(235, 23, 0);
-cursor: pointer;
-display: block;
-font-family: norms-bold;
-font-size: 18px;
-font-variant-ligatures: normal;
-font-weight: 700;
-letter-spacing: -0.01px;
-line-height: 22px;
-}
+
 .type img{
     height: 154px;
     max-width: 154px;
@@ -393,6 +387,11 @@ line-height: 22px;
     box-sizing: border-box;
     margin-left: 24px;
 }
+.start2 span.dd{
+    color: rgb(235, 23, 0);
+    display: block;
+    font-family: norms-bold;
+}
 .start{
     display: flex;
     width: 100%;
@@ -400,6 +399,10 @@ line-height: 22px;
 .start1 svg{
     color: red;
     max-width: 16px;
+    position: relative;
+    right: 20px;
+    
+    
 }
 .start2{
     display: flex;
@@ -409,9 +412,11 @@ line-height: 22px;
 .start1{
     display: flex;
     align-items: center;
+    justify-content: center;
+
 }
 .non span{
-    max-width: 270px;
+    /* max-width: 270px; */
 box-sizing: border-box;
 color: rgb(25, 25, 25);
 display: block;
@@ -426,7 +431,7 @@ margin-top: 8px;
 
 
 }
-.start1 h3{
+.start1 span{
     box-sizing: border-box;
 color: rgb(235, 23, 0);
 cursor: pointer;
@@ -449,7 +454,7 @@ font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 24px;
-max-width: 270px;
+/* max-width: 270px; */
 }
 .crave{
     width: 100%;
@@ -614,32 +619,29 @@ border-radius: 20px;
       background-size: cover; 
       background-repeat: no-repeat;
       background-position: center;
-      /* border: 1px solid #000;  */
-      /* object-fit: contain; */
+      position: relative;
 }
 
 .grocery{
-    display: block;
+     display: flex;
+     flex-direction: column;
     box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 740px;
-    /* transform: translateX(245px); */
-    transform: translateY(165px);
-    
-    
+   justify-content: center;
+   left: 39%;
+   top: 28%;
+   position: absolute;
+   text-align: center;
 }
 .grocery h2{
     display: block;
 filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
 font-family: norms-bold;
 font-size: 40px;
-font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 38px;
 max-width: 350px;
+/* width: 48%; */
 text-align: center;
 color: #ffffff;
 margin-bottom: 22px;
@@ -652,7 +654,6 @@ color: rgb(255, 255, 255);
 display: block;
 filter: norms-bold;
 font-size: 20px;
-font-variant-ligatures: no-common-ligatures;
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 24px;
@@ -664,32 +665,36 @@ align-items: center;
 box-sizing: border-box;
 color: rgb(255, 255, 255);
 display: block;
-filter: norms-medium;
+font-family: norms-medium;
 font-size: 16px;
-font-variant-ligatures: no-common-ligatures;
 font-weight: 500;
 letter-spacing: -0.01px;
 line-height: 22px;
-max-width: 500px;
+max-width: 520px;
+position: relative;
+right: 50px;
+top: 10px;
 text-align: center;
 }
 .grocery button{
 height: 40px;
-width: 138.067px;
+max-width: 138.067px;
 box-sizing: border-box;
 color: rgb(255, 255, 255);
 cursor: pointer;
 display: block;
 font-family: norms-medium;
 font-size: 16px;
-font-variant-ligatures: no-common-ligatures;
+/* font-variant-ligatures: no-common-ligatures; */
 font-weight: 700;
 letter-spacing: -0.01px;
 line-height: 22px;
 background-color: #eb1700;
 border: none;
 border-radius: 16px;
-text-align: center;
+position: relative;
+left: 145px;
+top: 40px;
 
 }
 .noor{
@@ -700,9 +705,12 @@ text-align: center;
   
 }
 .ezra{
+    position: relative;
     display: block;
-    margin-top: 140px;
-    margin-left: -30px;
+    /* margin-top: 140px; */
+    right: 50px;
+    top: 140px;
+
 }
 .medi{
 display: block;
@@ -712,7 +720,9 @@ box-sizing: border-box;
 }
 .medi img{
    max-width: 695.033px;
-    height: 500px;
+    /* height: 500px; */
+    position: relative;
+    left: 40px;
 }
 .ezra h1{
     box-sizing: border-box;
@@ -1318,7 +1328,8 @@ line-height: 22px
 }
 .pop{
     display: flex;
-    margin: 0 350px;
+margin-left: 19.4%;
+    /* margin: 0 350px; */
 }
 
 .pop p{
@@ -1505,6 +1516,7 @@ transform: translateY(2px);
     height: 32px;
     background-color: #ffffff;
     border-radius: 16px;
+    padding-right: 7px;
     /* margin-left: 159px; */
 
 }
@@ -1617,7 +1629,7 @@ border-bottom-color: rgb(25, 25, 25);
 .scooter{
     display: flex;
     justify-content: center;
-margin-left: 10%;
+margin-left: 15%;
 }
 .type img{
     height: 124px;
@@ -1638,7 +1650,7 @@ margin-left: 10%;
     
 }
 .fan span{
-    max-width: 400px;
+    width: 100%;
 }
 
 .house{
@@ -1658,8 +1670,7 @@ margin-left: 10%;
 }
 .fan span{
 box-sizing: border-box;
-color: rgb(25, 25, 25);
-display: block;
+/* color: rgb(25, 25, 25); */
 font-family: norms-medium;
 font-size: 18px;
 font-weight: 500;
@@ -1714,6 +1725,7 @@ line-height: 20px;
 .non span{
     margin-left: 35px;
     margin-top: 0;
+    transform: none;
 }
 .non h3{
     box-sizing: border-box;
@@ -1735,21 +1747,16 @@ margin-left: 35px;
 .shoe span{
     margin-left: 35px;
 }
-.start2 h3{
-    margin-left: 35px;
-    width: 40%;
-}
+
 .start2 {
     display: flex;
     /* text-align: center;ju */
     align-items: center;
+    justify-content: left;
     
 }
 .type1{
     transform: translateX(27px);
-}
-.grocery {
-margin-left: 500px;
 }
 .bahu{
     grid-template-columns: repeat(4,1fr);
@@ -1828,14 +1835,6 @@ margin-left: 500px;
 .boxer{
     width: 100%;
 }
-.done{
-    width: 30%;
-}
-
-
-
-
-
 
        }
 
@@ -1882,9 +1881,6 @@ margin-left: 500px;
 .crave-img img{
     width: 80%;
     height: 500px;
-}
-.grocery{
-    margin-left: 300px;
 }
 .flower h2{
     font-family: norms-bold;
@@ -2090,7 +2086,6 @@ line-height: 28px;
     margin-left: 0;
 }
 
-
 }
 
 @media (max-width:767px) {
@@ -2127,13 +2122,17 @@ width: 100%;
 }
 .words{
     margin: 80px;
+    margin-top: 0;
 }
 .cover-img{
     width: 100%;
-    height: 350px;
+    /* height: 350px; */
+    /* position: relative; */
 }
 .grocery{
     margin-left: 0;
+   top: 0;
+   left: 10%;
 }
 .noor{
     width: 100%;
@@ -2141,10 +2140,16 @@ width: 100%;
     flex-direction: column-reverse;
 }
 .medi img{
-  width: 100%;
-    height: 180px;
+  /* width: 100%; */
+    max-height: 180px;
+}
+.ezra h1{
+    width: 100%;
+    max-width: 500px;
 }
 .ezra{
+    right: 0;
+    top: 0;
     margin-left: 0;
     margin-top: 20px;
 }
@@ -2222,6 +2227,7 @@ width: 100%;
 .type img{
     max-width: 88px;
     height: 88px;
+    /* transform: translateX(4px); */
 }
 .type1 img{
    max-width: 88px;
@@ -2231,10 +2237,6 @@ width: 100%;
 .type2 img{
    max-width: 88px;
     height: 88px;
-}
-.scooter{
-    padding: 0;
-    margin-left: 0;
 }
 .paid{
     margin-right: 0;
@@ -2281,17 +2283,21 @@ background-color: #eb1700;
 }
 .krish{
     max-width: 767px;
+    margin: auto;
 }
 .scooter{
     padding-left: 0;
 }
 .type1{
-    transform: none;
+    /* transform: none; */
     margin-left: 0;
 }
 .krish{
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     /* margin-bottom: -100px; */
 
 }
@@ -2450,11 +2456,9 @@ header{
     /* margin-left: 102px; */
 }
 .type img{
-transform: translateX(-30px);
+transform: translateX(4px);
 }
-.non h2{
-    transform: translateX(10px);
-}
+
  .saved {
     display: flex;
     max-width: 81.06px;
@@ -2503,8 +2507,8 @@ line-height: 20px
 .non{
     margin-left: 0;
 }
-.start h3{
-    
+.grocery h2{
+    width: none;
 }
 }
 
